@@ -1,0 +1,875 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D17A7BF3-F922-4B31-AD12-D2A74F6EFEB2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PontosX2</RootNamespace>
+    <AssemblyName>PontosX2</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="C1.Win.C1FlexGrid.4, Version=4.0.20151.38, Culture=neutral, PublicKeyToken=79882d576c6336da" />
+    <Reference Include="C1.Win.C1FlexGrid.Classic.4, Version=4.0.20151.38, Culture=neutral, PublicKeyToken=79882d576c6336da, processorArchitecture=MSIL" />
+    <Reference Include="C1.Win.C1Input.2, Version=2.0.20151.38, Culture=neutral, PublicKeyToken=7e7ff60f0c214f9a, processorArchitecture=MSIL" />
+    <Reference Include="C1.Win.C1List.4, Version=4.0.20151.38, Culture=neutral, PublicKeyToken=6b24f8f981dbd7bc, processorArchitecture=MSIL" />
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Recursos\Bibliotecas\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Arquivo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Arquivo.Designer.cs">
+      <DependentUpon>Arquivo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAtivacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAtivacao.Designer.cs">
+      <DependentUpon>FormAtivacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAtualizaFirmwares.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAtualizaFirmwares.Designer.cs">
+      <DependentUpon>FormAtualizaFirmwares.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormChangeFare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormChangeFare.Designer.cs">
+      <DependentUpon>FormChangeFare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFontEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFontEditor.Designer.cs">
+      <DependentUpon>FormFontEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFontEditorOpen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFontEditorOpen.Designer.cs">
+      <DependentUpon>FormFontEditorOpen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormHabilitaAlternancia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHabilitaAlternancia.Designer.cs">
+      <DependentUpon>FormHabilitaAlternancia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLanguagesAndRegions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLanguagesAndRegions.Designer.cs">
+      <DependentUpon>FormLanguagesAndRegions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPerifericoAnexo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPerifericoAnexo.Designer.cs">
+      <DependentUpon>FormPerifericoAnexo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPresentationSequence.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPresentationSequence.Designer.cs">
+      <DependentUpon>FormPresentationSequence.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormReleaseNotes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReleaseNotes.Designer.cs">
+      <DependentUpon>FormReleaseNotes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSearchRoute.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSearchRoute.Designer.cs">
+      <DependentUpon>FormSearchRoute.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSplashScreen.Designer.cs">
+      <DependentUpon>FormSplashScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Agendamento\Agendamento.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Agendamento\Agendamento.Designer.cs">
+      <DependentUpon>Agendamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MensagensEspeciais\TextosEditorMsgEsp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\MensagensEspeciais\TextosEditorMsgEsp.Designer.cs">
+      <DependentUpon>TextosEditorMsgEsp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Mensagens\ListarMensagens.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Mensagens\ListarMensagens.Designer.cs">
+      <DependentUpon>ListarMensagens.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Mensagens\Mensagens.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Mensagens\Mensagens.Designer.cs">
+      <DependentUpon>Mensagens.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Mensagens\ModeloMsg\TextoMsg.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Mensagens\ModeloMsg\TextoMsg.Designer.cs">
+      <DependentUpon>TextoMsg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Mensagens\ModeloMsg\TextoDuploMsg.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Mensagens\ModeloMsg\TextoDuploMsg.Designer.cs">
+      <DependentUpon>TextoDuploMsg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Mensagens\ModeloMsg\TextoDuploTextoDuploMsg.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Mensagens\ModeloMsg\TextoDuploTextoDuploMsg.Designer.cs">
+      <DependentUpon>TextoDuploTextoDuploMsg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Mensagens\ModeloMsg\TextoTriploMsg.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Mensagens\ModeloMsg\TextoTriploMsg.Designer.cs">
+      <DependentUpon>TextoTriploMsg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Mensagens\TextosEditorMsg.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Mensagens\TextosEditorMsg.Designer.cs">
+      <DependentUpon>TextosEditorMsg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Motorista\Modelo\TextoMotorista.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Motorista\Modelo\TextoMotorista.Designer.cs">
+      <DependentUpon>TextoMotorista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Motorista\Motorista.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Motorista\Motorista.Designer.cs">
+      <DependentUpon>Motorista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Motorista\MotoristaEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Motorista\MotoristaEditor.Designer.cs">
+      <DependentUpon>MotoristaEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Roteiros\ListarRoteiros.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Roteiros\ListarRoteiros.Designer.cs">
+      <DependentUpon>ListarRoteiros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Roteiros\Modelo\NumeroTexto.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Roteiros\Modelo\NumeroTexto.Designer.cs">
+      <DependentUpon>NumeroTexto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Roteiros\Modelo\NumeroTextoDuplo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Roteiros\Modelo\NumeroTextoDuplo.Designer.cs">
+      <DependentUpon>NumeroTextoDuplo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Roteiros\Modelo\NumeroTextoTriplo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Roteiros\Modelo\NumeroTextoTriplo.Designer.cs">
+      <DependentUpon>NumeroTextoTriplo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Roteiros\Modelo\Texto.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Roteiros\Modelo\Texto.Designer.cs">
+      <DependentUpon>Texto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Roteiros\Modelo\TextoDuplo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Roteiros\Modelo\TextoDuplo.Designer.cs">
+      <DependentUpon>TextoDuplo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Roteiros\Modelo\TextoDuploNumero.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Roteiros\Modelo\TextoDuploNumero.Designer.cs">
+      <DependentUpon>TextoDuploNumero.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Roteiros\Modelo\TextoDuploTextoDuplo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Roteiros\Modelo\TextoDuploTextoDuplo.Designer.cs">
+      <DependentUpon>TextoDuploTextoDuplo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Roteiros\Modelo\TextoNumero.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Roteiros\Modelo\TextoNumero.Designer.cs">
+      <DependentUpon>TextoNumero.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Roteiros\Modelo\TextoTriplo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Roteiros\Modelo\TextoTriplo.Designer.cs">
+      <DependentUpon>TextoTriplo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Roteiros\Modelo\TextoTriploNumero.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Roteiros\Modelo\TextoTriploNumero.Designer.cs">
+      <DependentUpon>TextoTriploNumero.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Roteiros\Roteiros.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Roteiros\Roteiros.Designer.cs">
+      <DependentUpon>Roteiros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Roteiros\NumEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Roteiros\NumEditor.Designer.cs">
+      <DependentUpon>NumEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Roteiros\TextosEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Roteiros\TextosEditor.Designer.cs">
+      <DependentUpon>TextosEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Simulacao\EditarSimulacao.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Simulacao\EditarSimulacao.Designer.cs">
+      <DependentUpon>EditarSimulacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Simulacao\FormSimulacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Simulacao\FormSimulacao.Designer.cs">
+      <DependentUpon>FormSimulacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Simulacao\PainelSimulacao.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\Simulacao\PainelSimulacao.Designer.cs">
+      <DependentUpon>PainelSimulacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSobre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSobre.designer.cs">
+      <DependentUpon>FormSobre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIPrincipal.Designer.cs">
+      <DependentUpon>MDIPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VideoBitmap\VideoBitmap.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VideoBitmap\VideoBitmap.Designer.cs">
+      <DependentUpon>VideoBitmap.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Arquivo.resx">
+      <DependentUpon>Arquivo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAtivacao.resx">
+      <DependentUpon>FormAtivacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAtualizaFirmwares.resx">
+      <DependentUpon>FormAtualizaFirmwares.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormChangeFare.resx">
+      <DependentUpon>FormChangeFare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFontEditor.resx">
+      <DependentUpon>FormFontEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFontEditorOpen.resx">
+      <DependentUpon>FormFontEditorOpen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormHabilitaAlternancia.resx">
+      <DependentUpon>FormHabilitaAlternancia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLanguagesAndRegions.resx">
+      <DependentUpon>FormLanguagesAndRegions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPerifericoAnexo.resx">
+      <DependentUpon>FormPerifericoAnexo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPresentationSequence.resx">
+      <DependentUpon>FormPresentationSequence.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReleaseNotes.resx">
+      <DependentUpon>FormReleaseNotes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSearchRoute.resx">
+      <DependentUpon>FormSearchRoute.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSplashScreen.resx">
+      <DependentUpon>FormSplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Agendamento\Agendamento.resx">
+      <DependentUpon>Agendamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MensagensEspeciais\TextosEditorMsgEsp.resx">
+      <DependentUpon>TextosEditorMsgEsp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Mensagens\ListarMensagens.resx">
+      <DependentUpon>ListarMensagens.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Mensagens\Mensagens.resx">
+      <DependentUpon>Mensagens.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Mensagens\ModeloMsg\TextoMsg.resx">
+      <DependentUpon>TextoMsg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Mensagens\ModeloMsg\TextoDuploMsg.resx">
+      <DependentUpon>TextoDuploMsg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Mensagens\ModeloMsg\TextoDuploTextoDuploMsg.resx">
+      <DependentUpon>TextoDuploTextoDuploMsg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Mensagens\ModeloMsg\TextoTriploMsg.resx">
+      <DependentUpon>TextoTriploMsg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Mensagens\TextosEditorMsg.resx">
+      <DependentUpon>TextosEditorMsg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Motorista\Modelo\TextoMotorista.resx">
+      <DependentUpon>TextoMotorista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Motorista\Motorista.resx">
+      <DependentUpon>Motorista.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Motorista\MotoristaEditor.resx">
+      <DependentUpon>MotoristaEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Roteiros\ListarRoteiros.resx">
+      <DependentUpon>ListarRoteiros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Roteiros\Modelo\NumeroTexto.resx">
+      <DependentUpon>NumeroTexto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Roteiros\Modelo\NumeroTextoDuplo.resx">
+      <DependentUpon>NumeroTextoDuplo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Roteiros\Modelo\NumeroTextoTriplo.resx">
+      <DependentUpon>NumeroTextoTriplo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Roteiros\Modelo\Texto.resx">
+      <DependentUpon>Texto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Roteiros\Modelo\TextoDuplo.resx">
+      <DependentUpon>TextoDuplo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Roteiros\Modelo\TextoDuploNumero.resx">
+      <DependentUpon>TextoDuploNumero.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Roteiros\Modelo\TextoDuploTextoDuplo.resx">
+      <DependentUpon>TextoDuploTextoDuplo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Roteiros\Modelo\TextoNumero.resx">
+      <DependentUpon>TextoNumero.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Roteiros\Modelo\TextoTriplo.resx">
+      <DependentUpon>TextoTriplo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Roteiros\Modelo\TextoTriploNumero.resx">
+      <DependentUpon>TextoTriploNumero.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Roteiros\Roteiros.resx">
+      <DependentUpon>Roteiros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Roteiros\NumEditor.resx">
+      <DependentUpon>NumEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Roteiros\TextosEditor.resx">
+      <DependentUpon>TextosEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Simulacao\EditarSimulacao.resx">
+      <DependentUpon>EditarSimulacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Simulacao\FormSimulacao.resx">
+      <DependentUpon>FormSimulacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Simulacao\PainelSimulacao.resx">
+      <DependentUpon>PainelSimulacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSobre.resx">
+      <DependentUpon>FormSobre.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIPrincipal.resx">
+      <DependentUpon>MDIPrincipal.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="VideoBitmap\VideoBitmap.resx">
+      <DependentUpon>VideoBitmap.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="firmware\firmware.fir" />
+    <None Include="firmware\firmware.opt" />
+    <None Include="firmware\multilin.fir" />
+    <None Include="firmware\multilin.opt" />
+    <None Include="firmware\mux2vias.fir" />
+    <None Include="firmware\mux2vias.opt" />
+    <None Include="firmware\mux_2x13.fir" />
+    <None Include="firmware\mux_2x13.opt" />
+    <None Include="firmware\mux_2x8.fir" />
+    <None Include="firmware\mux_2x8.opt" />
+    <None Include="firmware\painel.fir" />
+    <None Include="firmware\painel.opt" />
+    <None Include="fontes\FRT 05x05 Regular x.fnt" />
+    <None Include="fontes\FRT 05x06 Regular x.fnt" />
+    <None Include="fontes\FRT 05x08 Bold x.fnt" />
+    <None Include="fontes\FRT 07x06 Regular x.fnt" />
+    <None Include="fontes\FRT 07x08 Bold x.fnt" />
+    <None Include="fontes\FRT 08x05 Regular x.fnt" />
+    <None Include="fontes\FRT 08x06 Bold x.fnt" />
+    <None Include="fontes\FRT 08x07 Bold x.fnt" />
+    <None Include="fontes\FRT 11x05 Bold x.fnt" />
+    <None Include="fontes\FRT 11x06 Bold.fnt" />
+    <None Include="fontes\FRT 11x07 Bold x.fnt" />
+    <None Include="fontes\FRT 11x07 Bold.fnt" />
+    <None Include="fontes\FRT 11x07 Regular x.fnt" />
+    <None Include="fontes\FRT 11x07 Regular.fnt" />
+    <None Include="fontes\FRT 11x09 Bold x.fnt" />
+    <None Include="fontes\FRT 11x09 Italic x.fnt" />
+    <None Include="fontes\FRT 11x10 Bold x.fnt" />
+    <None Include="fontes\FRT 11x16 Regular.fnt" />
+    <None Include="fontes\FRT 13x05 Bold x.fnt" />
+    <None Include="fontes\FRT 13x06 Bold x.fnt" />
+    <None Include="fontes\FRT 13x07 Bold x.fnt" />
+    <None Include="fontes\FRT 13x07 Regular x.fnt" />
+    <None Include="fontes\FRT 13x08 Bold x.fnt" />
+    <None Include="fontes\FRT 13x08 Bold.fnt" />
+    <None Include="fontes\FRT 13x09 Bold x.fnt" />
+    <None Include="fontes\FRT 13x09 Bold.fnt" />
+    <None Include="fontes\FRT 13x10 Bold.fnt" />
+    <None Include="fontes\FRT 13x12 Bold.fnt" />
+    <None Include="fontes\FRT 13x21 Bold.fnt" />
+    <None Include="fontes\FRT 14x08 Regular x.fnt" />
+    <None Include="fontes\FRT 14x10 Bold x.fnt" />
+    <None Include="fontes\FRT 16x07 Bold.fnt" />
+    <None Include="fontes\FRT 16x08 Bold.fnt" />
+    <None Include="fontes\FRT 16x08 Regular x.fnt" />
+    <None Include="fontes\FRT 16x10 Bold x.fnt" />
+    <None Include="fontes\FRT 16x10 Bold.fnt" />
+    <None Include="fontes\FRT 16x12 Bold.fnt" />
+    <None Include="fontes\FRT 16x14 Bold.fnt" />
+    <None Include="fontes\FRT 16x16 Bold.fnt" />
+    <None Include="fontes\FRT 26x07 Bold x.fnt" />
+    <None Include="fontes\FRT 26x08 Bold x.fnt" />
+    <None Include="fontes\FRT 26x10 Bold x.fnt" />
+    <None Include="fontes\FRT 26x12 Bold x.fnt" />
+    <None Include="fontes\FRT 26x16 Bold x.fnt" />
+    <None Include="fontes\FRT 26x16 Bold.fnt" />
+    <None Include="fontes\FRT 26x23 Bold.fnt" />
+    <None Include="fontes\FRT 26x26 Bold x.fnt" />
+    <None Include="Img\Psd\icone arquivo ldx2.psd" />
+    <None Include="Img\Psd\Icone Pontos x2.psd" />
+    <None Include="Img\Psd\Splash Pontos x2_2.psd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Bitmaps\Airp.bmp" />
+    <Content Include="Bitmaps\Airp2.bmp" />
+    <Content Include="Bitmaps\chair.bmp" />
+    <Content Include="Bitmaps\chair2.bmp" />
+    <Content Include="Bitmaps\frt.bmp" />
+    <Content Include="Bitmaps\info.bmp" />
+    <Content Include="Bitmaps\info2.bmp" />
+    <Content Include="idiomaGUI\idioma.inf" />
+    <Content Include="idiomaGUI\idiomaEN.inf" />
+    <Content Include="idiomaGUI\idiomaES.inf" />
+    <Content Include="idiomaGUI\idiomaPT.inf" />
+    <Content Include="Img\add.png" />
+    <Content Include="Img\APP-Icone-16-vermelho.png" />
+    <Content Include="Img\APP-Icone-16.png" />
+    <Content Include="Img\collapse.png" />
+    <Content Include="Img\delete.png" />
+    <Content Include="Img\expand.png" />
+    <Content Include="Img\flags\Afghanistan.png" />
+    <Content Include="Img\flags\Albania.png" />
+    <Content Include="Img\flags\Algeria.png" />
+    <Content Include="Img\flags\American Samoa.png" />
+    <Content Include="Img\flags\Andorra.png" />
+    <Content Include="Img\flags\Angola.png" />
+    <Content Include="Img\flags\Anguilla.png" />
+    <Content Include="Img\flags\Antarctica.png" />
+    <Content Include="Img\flags\Antigua &amp; Barbuda.png" />
+    <Content Include="Img\flags\Argentina.png" />
+    <Content Include="Img\flags\Armenia.png" />
+    <Content Include="Img\flags\Aruba.png" />
+    <Content Include="Img\flags\Australia.png" />
+    <Content Include="Img\flags\Austria.png" />
+    <Content Include="Img\flags\Azerbaijan.png" />
+    <Content Include="Img\flags\Bahamas.png" />
+    <Content Include="Img\flags\Bahrain.png" />
+    <Content Include="Img\flags\Bangladesh.png" />
+    <Content Include="Img\flags\Barbados.png" />
+    <Content Include="Img\flags\Belarus.png" />
+    <Content Include="Img\flags\Belgium.png" />
+    <Content Include="Img\flags\Belize.png" />
+    <Content Include="Img\flags\Benin.png" />
+    <Content Include="Img\flags\Bermuda.png" />
+    <Content Include="Img\flags\Bhutan.png" />
+    <Content Include="Img\flags\Bolivia.png" />
+    <Content Include="Img\flags\Bosnia &amp; Herzegovina.png" />
+    <Content Include="Img\flags\Botswana.png" />
+    <Content Include="Img\flags\Brazil.png" />
+    <Content Include="Img\flags\Brunei.png" />
+    <Content Include="Img\flags\Bulgaria.png" />
+    <Content Include="Img\flags\Burkina Faso.png" />
+    <Content Include="Img\flags\Burundi.png" />
+    <Content Include="Img\flags\Cambodja.png" />
+    <Content Include="Img\flags\Cameroon.png" />
+    <Content Include="Img\flags\Canada.png" />
+    <Content Include="Img\flags\Cape Verde.png" />
+    <Content Include="Img\flags\Cayman Islands.png" />
+    <Content Include="Img\flags\Central African Republic.png" />
+    <Content Include="Img\flags\Chad.png" />
+    <Content Include="Img\flags\Chile.png" />
+    <Content Include="Img\flags\China.png" />
+    <Content Include="Img\flags\CIS.png" />
+    <Content Include="Img\flags\Colombia.png" />
+    <Content Include="Img\flags\Comoros.png" />
+    <Content Include="Img\flags\Cook Islands.png" />
+    <Content Include="Img\flags\Costa Rica.png" />
+    <Content Include="Img\flags\Croatia.png" />
+    <Content Include="Img\flags\Cuba.png" />
+    <Content Include="Img\flags\Cyprus.png" />
+    <Content Include="Img\flags\Czech Republic.png" />
+    <Content Include="Img\flags\Democratic Republic of the Congo.png" />
+    <Content Include="Img\flags\Denmark.png" />
+    <Content Include="Img\flags\Djibouti.png" />
+    <Content Include="Img\flags\Dominica.png" />
+    <Content Include="Img\flags\Dominican Republic.png" />
+    <Content Include="Img\flags\Dominican Republic2.png" />
+    <Content Include="Img\flags\Dominican Republic3.png" />
+    <Content Include="Img\flags\Ecuador.png" />
+    <Content Include="Img\flags\Egypt.png" />
+    <Content Include="Img\flags\El Salvador.png" />
+    <Content Include="Img\flags\Equatorial Guinea.png" />
+    <Content Include="Img\flags\Eritrea.png" />
+    <Content Include="Img\flags\Estonia.png" />
+    <Content Include="Img\flags\Ethiopia.png" />
+    <Content Include="Img\flags\Faroes.png" />
+    <Content Include="Img\flags\Fiji.png" />
+    <Content Include="Img\flags\Finland.png" />
+    <Content Include="Img\flags\France.png" />
+    <Content Include="Img\flags\Gabon.png" />
+    <Content Include="Img\flags\Gambia.png" />
+    <Content Include="Img\flags\Georgia.png" />
+    <Content Include="Img\flags\Germany.png" />
+    <Content Include="Img\flags\Ghana.png" />
+    <Content Include="Img\flags\Gibraltar.png" />
+    <Content Include="Img\flags\Greece.png" />
+    <Content Include="Img\flags\Greenland.png" />
+    <Content Include="Img\flags\Grenada.png" />
+    <Content Include="Img\flags\Guam.png" />
+    <Content Include="Img\flags\Guatemala.png" />
+    <Content Include="Img\flags\Guernsey.png" />
+    <Content Include="Img\flags\Guinea-Bissau.png" />
+    <Content Include="Img\flags\Guinea.png" />
+    <Content Include="Img\flags\Guyana.png" />
+    <Content Include="Img\flags\Haiti.png" />
+    <Content Include="Img\flags\Honduras.png" />
+    <Content Include="Img\flags\Hong Kong.png" />
+    <Content Include="Img\flags\Hungary.png" />
+    <Content Include="Img\flags\Iceland.png" />
+    <Content Include="Img\flags\India.png" />
+    <Content Include="Img\flags\Indonesia.png" />
+    <Content Include="Img\flags\Iran.png" />
+    <Content Include="Img\flags\Iraq.png" />
+    <Content Include="Img\flags\Ireland.png" />
+    <Content Include="Img\flags\Isle of Man.png" />
+    <Content Include="Img\flags\Israel.png" />
+    <Content Include="Img\flags\Italy.png" />
+    <Content Include="Img\flags\Jamaica.png" />
+    <Content Include="Img\flags\Japan.png" />
+    <Content Include="Img\flags\Jersey.png" />
+    <Content Include="Img\flags\Jordan.png" />
+    <Content Include="Img\flags\Kazakhstan.png" />
+    <Content Include="Img\flags\Kenya.png" />
+    <Content Include="Img\flags\Kiribati.png" />
+    <Content Include="Img\flags\Kosovo.png" />
+    <Content Include="Img\flags\Kuwait.png" />
+    <Content Include="Img\flags\Kyrgyzstan.png" />
+    <Content Include="Img\flags\Laos.png" />
+    <Content Include="Img\flags\Latvia.png" />
+    <Content Include="Img\flags\Lebanon.png" />
+    <Content Include="Img\flags\Lesotho.png" />
+    <Content Include="Img\flags\Liberia.png" />
+    <Content Include="Img\flags\Libya.png" />
+    <Content Include="Img\flags\Liechtenstein.png" />
+    <Content Include="Img\flags\Lithuania.png" />
+    <Content Include="Img\flags\Luxembourg.png" />
+    <Content Include="Img\flags\Macao.png" />
+    <Content Include="Img\flags\Macedonia.png" />
+    <Content Include="Img\flags\Madagascar.png" />
+    <Content Include="Img\flags\Malawi.png" />
+    <Content Include="Img\flags\Malaysia.png" />
+    <Content Include="Img\flags\Maldives.png" />
+    <Content Include="Img\flags\Mali.png" />
+    <Content Include="Img\flags\Malta.png" />
+    <Content Include="Img\flags\Marshall Islands.png" />
+    <Content Include="Img\flags\Mauritania.png" />
+    <Content Include="Img\flags\Mauritius.png" />
+    <Content Include="Img\flags\Mexico.png" />
+    <Content Include="Img\flags\Micronesia.png" />
+    <Content Include="Img\flags\Moldova.png" />
+    <Content Include="Img\flags\Monaco.png" />
+    <Content Include="Img\flags\Mongolia.png" />
+    <Content Include="Img\flags\Montenegro.png" />
+    <Content Include="Img\flags\Montserrat.png" />
+    <Content Include="Img\flags\Morocco.png" />
+    <Content Include="Img\flags\Mozambique.png" />
+    <Content Include="Img\flags\Myanmar%28Burma%29.png" />
+    <Content Include="Img\flags\Namibia.png" />
+    <Content Include="Img\flags\Nauru.png" />
+    <Content Include="Img\flags\Nepal.png" />
+    <Content Include="Img\flags\Netherlands Antilles.png" />
+    <Content Include="Img\flags\Netherlands.png" />
+    <Content Include="Img\flags\New Caledonia.png" />
+    <Content Include="Img\flags\New Zealand.png" />
+    <Content Include="Img\flags\Nicaragua.png" />
+    <Content Include="Img\flags\Niger.png" />
+    <Content Include="Img\flags\Nigeria.png" />
+    <Content Include="Img\flags\North Korea.png" />
+    <Content Include="Img\flags\Norway.png" />
+    <Content Include="Img\flags\Oman.png" />
+    <Content Include="Img\flags\Pakistan.png" />
+    <Content Include="Img\flags\Palau.png" />
+    <Content Include="Img\flags\Palestine.png" />
+    <Content Include="Img\flags\Panama.png" />
+    <Content Include="Img\flags\Papua New Guinea.png" />
+    <Content Include="Img\flags\Paraguay.png" />
+    <Content Include="Img\flags\Peru.png" />
+    <Content Include="Img\flags\Philippines.png" />
+    <Content Include="Img\flags\Poland.png" />
+    <Content Include="Img\flags\Portugal.png" />
+    <Content Include="Img\flags\Puerto Rico.png" />
+    <Content Include="Img\flags\Puerto Rico2.png" />
+    <Content Include="Img\flags\Qatar.png" />
+    <Content Include="Img\flags\Republic of the Congo.png" />
+    <Content Include="Img\flags\Reunion.png" />
+    <Content Include="Img\flags\Romania.png" />
+    <Content Include="Img\flags\Russian Federation.png" />
+    <Content Include="Img\flags\Rwanda.png" />
+    <Content Include="Img\flags\Saint Lucia.png" />
+    <Content Include="Img\flags\Samoa.png" />
+    <Content Include="Img\flags\San Marino.png" />
+    <Content Include="Img\flags\Sao Tome &amp; Principe.png" />
+    <Content Include="Img\flags\Saudi Arabia.png" />
+    <Content Include="Img\flags\Senegal.png" />
+    <Content Include="Img\flags\Serbia.png" />
+    <Content Include="Img\flags\Seyshelles.png" />
+    <Content Include="Img\flags\Sierra Leone.png" />
+    <Content Include="Img\flags\Singapore.png" />
+    <Content Include="Img\flags\Slovakia.png" />
+    <Content Include="Img\flags\Slovenia.png" />
+    <Content Include="Img\flags\Solomon Islands.png" />
+    <Content Include="Img\flags\Somalia.png" />
+    <Content Include="Img\flags\South Afriica.png" />
+    <Content Include="Img\flags\South Korea.png" />
+    <Content Include="Img\flags\Spain.png" />
+    <Content Include="Img\flags\Sri Lanka.png" />
+    <Content Include="Img\flags\Sudan.png" />
+    <Content Include="Img\flags\Suriname.png" />
+    <Content Include="Img\flags\Swaziland.png" />
+    <Content Include="Img\flags\Sweden.png" />
+    <Content Include="Img\flags\Switzerland.png" />
+    <Content Include="Img\flags\Syria.png" />
+    <Content Include="Img\flags\Taiwan.png" />
+    <Content Include="Img\flags\Tajikistan.png" />
+    <Content Include="Img\flags\Tanzania.png" />
+    <Content Include="Img\flags\Thailand.png" />
+    <Content Include="Img\flags\Togo.png" />
+    <Content Include="Img\flags\Tonga.png" />
+    <Content Include="Img\flags\Trinidad &amp; Tobago.png" />
+    <Content Include="Img\flags\Tunisia.png" />
+    <Content Include="Img\flags\Turkey.png" />
+    <Content Include="Img\flags\Turkmenistan.png" />
+    <Content Include="Img\flags\Turks and Caicos Islands.png" />
+    <Content Include="Img\flags\Tuvalu.png" />
+    <Content Include="Img\flags\Uganda.png" />
+    <Content Include="Img\flags\Ukraine.png" />
+    <Content Include="Img\flags\United Arab Emirates.png" />
+    <Content Include="Img\flags\United Kingdom%28Great Britain%29.png" />
+    <Content Include="Img\flags\United States of America.png" />
+    <Content Include="Img\flags\Uruguay.png" />
+    <Content Include="Img\flags\Uzbekistan.png" />
+    <Content Include="Img\flags\Vanutau.png" />
+    <Content Include="Img\flags\Vatican City.png" />
+    <Content Include="Img\flags\Venezuela.png" />
+    <Content Include="Img\flags\Viet Nam.png" />
+    <Content Include="Img\flags\Western Sahara.png" />
+    <Content Include="Img\flags\Yemen.png" />
+    <Content Include="Img\flags\Zambia.png" />
+    <Content Include="Img\flags\Zimbabwe.png" />
+    <Content Include="Img\icone_seguranca.png" />
+    <Content Include="Img\Ico\arquivo_LDX2.ico" />
+    <Content Include="Img\Ico\LDX2.ico" />
+    <Content Include="Img\Ico\wifi.ico" />
+    <Content Include="Img\ldx2_sobre.png" />
+    <Content Include="Img\logo_frt.png" />
+    <Content Include="Img\page_paste.png" />
+    <Content Include="Img\report.png" />
+    <Content Include="Img\Splash\Splash Pontos x2_2.png" />
+    <Content Include="Img\Splash\Splash-Pontos-x2_2_0000_Camada-4.png" />
+    <Content Include="Img\Splash\Splash-Pontos-x2_2_0001_v-12.1.0.4-iniciando.png" />
+    <Content Include="Img\Splash\Splash-Pontos-x2_2_0002_x2.png" />
+    <Content Include="Img\Splash\Splash-Pontos-x2_2_0003_Camada-3.png" />
+    <Content Include="Img\Splash\Splash-Pontos-x2_2_0004_Camada-2.png" />
+    <Content Include="Img\Splash\Splash-Pontos-x2_2_0005_Plano-de-Fundo.png" />
+    <Content Include="Img\zoom_in.png" />
+    <Content Include="Img\zoom_out.png" />
+    <Content Include="Reports\StyleSheet.css" />
+    <None Include="Resources\collapse.png" />
+    <None Include="Resources\xis.png" />
+    <None Include="Img\controlador - inglês.png" />
+    <None Include="Img\fechado.png" />
+    <Content Include="Img\find.png" />
+    <Content Include="Img\FRTSetup_Banner.bmp" />
+    <Content Include="Img\led_aceso.png" />
+    <Content Include="Img\led_apagado.png" />
+    <Content Include="Img\led_invertido.png" />
+    <Content Include="Img\page_copy.png" />
+    <Content Include="Img\page_go.png" />
+    <Content Include="Img\paintbrush.png" />
+    <Content Include="Img\seta_direita.png" />
+    <Content Include="Img\seta_esquerda.png" />
+    <Content Include="Img\shape_align_bottom.png" />
+    <Content Include="Img\shape_align_center.png" />
+    <Content Include="Img\shape_align_left.png" />
+    <Content Include="Img\shape_align_middle.png" />
+    <Content Include="Img\shape_align_right.png" />
+    <Content Include="Img\shape_align_top.png" />
+    <Content Include="Img\style.png" />
+    <Content Include="Img\tick.png" />
+    <Content Include="Img\todos_acesos.png" />
+    <Content Include="Img\todos_apagados.png" />
+    <Content Include="Img\todos_invertidos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Controlador\Controlador.csproj">
+      <Project>{2d0b9ed0-3dac-46fb-b9ef-4140ae675548}</Project>
+      <Name>Controlador</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Globalization\Globalization.csproj">
+      <Project>{c672f0a9-1c31-4615-b1e8-064f313de74c}</Project>
+      <Name>Globalization</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Nucleo\Nucleo.csproj">
+      <Project>{1fe4774f-4702-4e67-abf4-75ff8d962790}</Project>
+      <Name>Nucleo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Persistencia\Persistencia.csproj">
+      <Project>{858bd77d-6691-4259-a932-218353df5bc7}</Project>
+      <Name>Persistencia</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Util\Util.csproj">
+      <Project>{845c6636-aa17-4252-9eeb-92f8c4ecd38b}</Project>
+      <Name>Util</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

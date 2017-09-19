@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Comunicacao.DispositivoSerial" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BgAYAACAgEAgCggAgABkAIgIAFYgAAAAGACAmAgJBCg=</HashCode>
+      <FileName>DispositivoSerial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Comunicacao.DispositivoUSB" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAEIAAAEAEAgCggEQAAAAAAAAFAwAAAAGAAAAAAJAAg=</HashCode>
+      <FileName>DispositivoUSB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Comunicacao.DispositivoWifi" Collapsed="true">
+    <Position X="5" Y="1.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>VgE5QACFgUggCwkUhABmAMgIIF8wAUBAGACAmIgLQCg=</HashCode>
+      <FileName>DispositivoWifi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Comunicacao.IDispositivo" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RAEIAAAEAEAgCghEAAAAAAAAAFAwAAAAGAAAAAAJAAg=</HashCode>
+      <FileName>IDispositivo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Comunicacao.StatusTransmissao" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIABAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>StatusTransmissao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Comunicacao.Erros.FalhaComunicacaoException" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Erros\FalhaComunicacaoException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

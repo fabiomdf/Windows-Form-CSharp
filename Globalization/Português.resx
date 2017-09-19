@@ -1,0 +1,3013 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ARQUIVO_ALT_ALTERNA_ROTEIRO" xml:space="preserve">
+    <value>ALTERNA ROTEIRO</value>
+  </data>
+  <data name="ARQUIVO_ALT_DATA_E_HORA" xml:space="preserve">
+    <value>DATA E HORA</value>
+  </data>
+  <data name="ARQUIVO_ALT_ERRO_ARQUIVO_CORROMPIDO" xml:space="preserve">
+    <value>Arquivo Corrompido!!!</value>
+  </data>
+  <data name="ARQUIVO_ALT_ERRO_NULO_ARQUIVO" xml:space="preserve">
+    <value>Arquivo de Alternância nulo em ArquivoALTAssembly - Arquivo_ALT.cs</value>
+  </data>
+  <data name="ARQUIVO_ALT_ERRO_TAMANHO_LINHA_INFERIOR" xml:space="preserve">
+    <value>O número de caracteres excede na linha inferior!</value>
+  </data>
+  <data name="ARQUIVO_ALT_ERRO_TAMANHO_LINHA_SUPERIOR" xml:space="preserve">
+    <value>O número de caracteres excede na linha superior!</value>
+  </data>
+  <data name="ARQUIVO_ALT_HORA_DE_SAIDA" xml:space="preserve">
+    <value>HORA DE SAIDA</value>
+  </data>
+  <data name="ARQUIVO_ALT_MENSAGEM" xml:space="preserve">
+    <value>MENSAGEM</value>
+  </data>
+  <data name="ARQUIVO_ALT_MENSAGEM_HORA" xml:space="preserve">
+    <value>MENSAGEM HORA</value>
+  </data>
+  <data name="ARQUIVO_ALT_MSG_COM_TEMP" xml:space="preserve">
+    <value>MSG COM TEMP</value>
+  </data>
+  <data name="ARQUIVO_ALT_MSG_COM_VEL" xml:space="preserve">
+    <value>MSG COM VEL</value>
+  </data>
+  <data name="ARQUIVO_ALT_MSG_HORA_TEMP" xml:space="preserve">
+    <value>MSG HORA TEMP</value>
+  </data>
+  <data name="ARQUIVO_ALT_MSG_HORA_TEMP2" xml:space="preserve">
+    <value>MSG+ HORA+ TEMP</value>
+  </data>
+  <data name="ARQUIVO_ALT_ROT_COM_TEMP" xml:space="preserve">
+    <value>ROT COM TEMP</value>
+  </data>
+  <data name="ARQUIVO_ALT_ROT_COM_VEL" xml:space="preserve">
+    <value>ROT COM VEL</value>
+  </data>
+  <data name="ARQUIVO_ALT_ROT_HORA_TEMP" xml:space="preserve">
+    <value>ROT+ HORA+ TEMP</value>
+  </data>
+  <data name="ARQUIVO_ALT_ROT_MSG_DATAHORA" xml:space="preserve">
+    <value>ROT MSG DATAHORA</value>
+  </data>
+  <data name="ARQUIVO_ALT_ROT_MSG_PARTIDA" xml:space="preserve">
+    <value>ROT MSG PARTIDA</value>
+  </data>
+  <data name="ARQUIVO_ALT_ROT_MSG_SAUDACAO" xml:space="preserve">
+    <value>ROT MSG SAUDACAO</value>
+  </data>
+  <data name="ARQUIVO_ALT_SAUDACAO" xml:space="preserve">
+    <value>SAUDACAO</value>
+  </data>
+  <data name="ARQUIVO_ALT_SO_HORA" xml:space="preserve">
+    <value>SOMENTE HORA</value>
+  </data>
+  <data name="ARQUIVO_ALT_SO_MENSAGEM" xml:space="preserve">
+    <value>SO MENSAGEM</value>
+  </data>
+  <data name="ARQUIVO_ALT_SO_NUM_ROTEIRO" xml:space="preserve">
+    <value>SO NUM ROTEIRO</value>
+  </data>
+  <data name="ARQUIVO_ALT_SO_ROTEIRO" xml:space="preserve">
+    <value>SO ROTEIRO</value>
+  </data>
+  <data name="ARQUIVO_ALT_SO_TEMPERATURA" xml:space="preserve">
+    <value>SO TEMPERATURA</value>
+  </data>
+  <data name="ARQUIVO_ALT_SO_VELOCIDADE" xml:space="preserve">
+    <value>SO VELOCIDADE</value>
+  </data>
+  <data name="ARQUIVO_ALT_TARIFA" xml:space="preserve">
+    <value>TARIFA</value>
+  </data>
+  <data name="ARQUIVO_BTN_APRESENTAR_EXIBIR" xml:space="preserve">
+    <value>Apresentar</value>
+  </data>
+  <data name="ARQUIVO_MBOX_EXCLUIR_PAINEL" xml:space="preserve">
+    <value>Você realmente deseja remover este painel?</value>
+  </data>
+  <data name="ARQUIVO_MBOX_FECHAR_JANELA" xml:space="preserve">
+    <value>Você realmente deseja fechar esta janela?</value>
+  </data>
+  <data name="ARQUIVO_MBOX_MUDAR_ALTURA_PAINEL" xml:space="preserve">
+    <value>Todas as configurações serão alterados. Você realmente deseja aplicar a nova altura?</value>
+  </data>
+  <data name="ARQUIVO_MBOX_MUDAR_PAINEL_MENSAGENS" xml:space="preserve">
+    <value>Você deseja aplicar as alterações da mensagem?</value>
+  </data>
+  <data name="ARQUIVO_MBOX_MUDAR_PAINEL_MSG_ESPECIAL" xml:space="preserve">
+    <value>Você deseja aplicar as alterações das mensagens especiais?</value>
+  </data>
+  <data name="ARQUIVO_MBOX_MUDAR_PAINEL_ROTEIROS" xml:space="preserve">
+    <value>Você deseja aplicar as alterações dos roteiros?</value>
+  </data>
+  <data name="ARQUIVO_MBOX_MUDAR_REGIAO" xml:space="preserve">
+    <value>As mensagens especiais serão alteradas. Você deseja alterar a região?</value>
+  </data>
+  <data name="ARQUIVO_MBOX_MUDAR_TABCONTROL_MENSAGEM" xml:space="preserve">
+    <value>Complete a atualização da mensagem primeiro!</value>
+  </data>
+  <data name="ARQUIVO_MBOX_MUDAR_TABCONTROL_MENSAGENS" xml:space="preserve">
+    <value>Você realmente deseja fechar as atualizações de mensagem?</value>
+  </data>
+  <data name="ARQUIVO_MBOX_MUDAR_TABCONTROL_MSG_ESPECIAL" xml:space="preserve">
+    <value>Você deseja aplicar as alterações de mensagens especiais?</value>
+  </data>
+  <data name="ARQUIVO_MBOX_MUDAR_TABCONTROL_ROTEIRO" xml:space="preserve">
+    <value>Complete a atualização do roteiro primeiro!</value>
+  </data>
+  <data name="ARQUIVO_MBOX_MUDAR_TABCONTROL_ROTEIROS" xml:space="preserve">
+    <value>Você realmente deseja fechar as atualizações do roteiro?</value>
+  </data>
+  <data name="ARQUIVO_MBOX_TYPE" xml:space="preserve">
+    <value>Confirmação</value>
+  </data>
+  <data name="ARQUIVO_PAINEL" xml:space="preserve">
+    <value>Painel</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_ARQUIVO" xml:space="preserve">
+    <value>Arquivo</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_ARQUIVO_BUTTON_INCLUIR" xml:space="preserve">
+    <value>Incluir</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_ARQUIVO_BUTTON_REMOVER" xml:space="preserve">
+    <value>Remover</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_ARQUIVO_DATAGRID_COLUNA_ALTURA" xml:space="preserve">
+    <value>Altura</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_ARQUIVO_DATAGRID_COLUNA_LARGURA" xml:space="preserve">
+    <value>Largura</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_ARQUIVO_DATAGRID_COLUNA_PAINEIS" xml:space="preserve">
+    <value>Painéis</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_ARQUIVO_LABEL_CAMINHO" xml:space="preserve">
+    <value>Caminho</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_ARQUIVO_LABEL_CAMINHO_DESCRICAO" xml:space="preserve">
+    <value>Novo Arquivo</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_ARQUIVO_LABEL_CONFIGURACAO_PAINEIS" xml:space="preserve">
+    <value>Configuração de Painéis</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_ARQUIVO_LABEL_NOVA_REGIAO" xml:space="preserve">
+    <value>Nova Região</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_ARQUIVO_LABEL_NUVEM" xml:space="preserve">
+    <value>Nuvem</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_ARQUIVO_LABEL_NUVEM_SALVO_EM" xml:space="preserve">
+    <value>Salvo Em:</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_ARQUIVO_LABEL_REGIAO" xml:space="preserve">
+    <value>Região</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_ARQUIVO_LABEL_SALVAR_NUVEM" xml:space="preserve">
+    <value>Enviar a Nuvem</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_MENSAGEM" xml:space="preserve">
+    <value>Mensagem</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_MENSAGENSESPECIAIS" xml:space="preserve">
+    <value>Mensagens Especiais</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_ROTEIRO" xml:space="preserve">
+    <value>Roteiro</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_TRANSMISSAO_ARQUIVO_BINARIO" xml:space="preserve">
+    <value>Arquivos Binários(*.nfx)|*.nfx</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_TRANSMITIR" xml:space="preserve">
+    <value>Transmissão</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_TRANSMITIR_BTN_ENVIAR" xml:space="preserve">
+    <value>Enviar</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_TRANSMITIR_CAMINHO" xml:space="preserve">
+    <value>Caminho</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_TRANSMITIR_GROUP_TRANSMITIR" xml:space="preserve">
+    <value>Transmitir</value>
+  </data>
+  <data name="COMBO_APRESENTACAO_FIXA" xml:space="preserve">
+    <value>Fixa</value>
+  </data>
+  <data name="COMBO_APRESENTACAO_ROLAGEM_BAIXO" xml:space="preserve">
+    <value>Rolagem para baixo</value>
+  </data>
+  <data name="COMBO_APRESENTACAO_ROLAGEM_CIMA" xml:space="preserve">
+    <value>Rolagem para cima</value>
+  </data>
+  <data name="COMBO_APRESENTACAO_ROLAGEM_CONTINUA_2_ESQUERDA" xml:space="preserve">
+    <value>Contínua 2</value>
+  </data>
+  <data name="COMBO_APRESENTACAO_ROLAGEM_CONTINUA_3_ESQUERDA" xml:space="preserve">
+    <value>Contínua  3</value>
+  </data>
+  <data name="COMBO_APRESENTACAO_ROLAGEM_CONTINUA_ESQUERDA" xml:space="preserve">
+    <value>Contínua</value>
+  </data>
+  <data name="COMBO_APRESENTACAO_ROLAGEM_PAGINADA_ESQUERDA" xml:space="preserve">
+    <value>Paginada</value>
+  </data>
+  <data name="COMBO_APRESENTACAO_ROLAGEM_SURGIMENTO_DENTRO_AMBOS" xml:space="preserve">
+    <value>Fade in</value>
+  </data>
+  <data name="COMBO_APRESENTACAO_ROLAGEM_SURGIMENTO_DENTRO_HOR" xml:space="preserve">
+    <value>Horizontal fade in</value>
+  </data>
+  <data name="COMBO_APRESENTACAO_ROLAGEM_SURGIMENTO_DENTRO_VERT" xml:space="preserve">
+    <value>Vertical fade in</value>
+  </data>
+  <data name="COMBO_APRESENTACAO_ROLAGEM_SURGIMENTO_FORA_AMBOS" xml:space="preserve">
+    <value>Fade out</value>
+  </data>
+  <data name="COMBO_APRESENTACAO_ROLAGEM_SURGIMENTO_FORA_HOR" xml:space="preserve">
+    <value>Horizontal fade out</value>
+  </data>
+  <data name="COMBO_APRESENTACAO_ROLAGEM_SURGIMENTO_FORA_VERT" xml:space="preserve">
+    <value>Vertical fade out</value>
+  </data>
+  <data name="COMBO_MODELO_N_TEXTO" xml:space="preserve">
+    <value>Número + Texto</value>
+  </data>
+  <data name="COMBO_MODELO_N_TEXTO_DUPLO" xml:space="preserve">
+    <value>Número + Texto Duplo</value>
+  </data>
+  <data name="COMBO_MODELO_TEXTO" xml:space="preserve">
+    <value>Texto</value>
+  </data>
+  <data name="COMBO_MODELO_TEXTO_DUPLO" xml:space="preserve">
+    <value>Texto Duplo</value>
+  </data>
+  <data name="COMBO_MODELO_TEXTO_DUPLO_N" xml:space="preserve">
+    <value>Texto Duplo + Número</value>
+  </data>
+  <data name="COMBO_MODELO_TEXTO_DUPLO_TEXTO_DUPLO" xml:space="preserve">
+    <value>Texto Duplo + Texto Duplo</value>
+  </data>
+  <data name="COMBO_MODELO_TEXTO_N" xml:space="preserve">
+    <value>Texto + Número</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="controlador" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\controlador - português.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CONTROLADOR_COPIAR_ARQUIVOS_FONTE" xml:space="preserve">
+    <value>Copiando arquivos de fontes...</value>
+  </data>
+  <data name="CONTROLADOR_COPIAR_ARQUIVOS_IDIOMA" xml:space="preserve">
+    <value>Copiando arquivos de idiomas...</value>
+  </data>
+  <data name="CONTROLADOR_COPIAR_ARQUIVOS_NSS" xml:space="preserve">
+    <value>Copiando arquivos APP...</value>
+  </data>
+  <data name="CONTROLADOR_CRIANDO_ARQUIVOS_REGIAO" xml:space="preserve">
+    <value>Criando arquivos de regiões...</value>
+  </data>
+  <data name="CONTROLADOR_CRIANDO_DIRETORIO_NANDFS" xml:space="preserve">
+    <value>Criando Diretórios de NandFS...</value>
+  </data>
+  <data name="CONTROLADOR_CRIANDO_DIRETORIO_PAINEIS" xml:space="preserve">
+    <value>Criando Diretórios de painéis...</value>
+  </data>
+  <data name="CONTROLADOR_CRIANDO_MENSAGENS_EMERGENCIA" xml:space="preserve">
+    <value>Criando Mensagens de Emergência...</value>
+  </data>
+  <data name="CONTROLADOR_GERAR_NFS" xml:space="preserve">
+    <value>Criando Arquivos NFX...</value>
+  </data>
+  <data name="CONTROLADOR_GERAR_NFS_APP" xml:space="preserve">
+    <value>Criando Arquivos NFX APP...</value>
+  </data>
+  <data name="CONTROLADOR_SALVAR_PAINEIS" xml:space="preserve">
+    <value>Salvando painéis...</value>
+  </data>
+  <data name="CONTROLADOR_SALVAR_PARAMETROS_FIXOS" xml:space="preserve">
+    <value>Salvando parametros fixos...</value>
+  </data>
+  <data name="CONTROLADOR_SALVAR_PARAMETROS_VARIAVEIS" xml:space="preserve">
+    <value>Salvando parametros variáveis...</value>
+  </data>
+  <data name="CONTROLADOR_TRANSFERENCIA_CONCLUIDA" xml:space="preserve">
+    <value>Transferência Concluída!!!</value>
+  </data>
+  <data name="MAIN_MENU_EDITAR" xml:space="preserve">
+    <value>&amp;Editar</value>
+  </data>
+  <data name="MAIN_MENU_EDIT_COPY" xml:space="preserve">
+    <value>&amp;Copiar</value>
+  </data>
+  <data name="MAIN_MENU_EDIT_CUT" xml:space="preserve">
+    <value>&amp;Recortar</value>
+  </data>
+  <data name="MAIN_MENU_EDIT_PASTE" xml:space="preserve">
+    <value>&amp;Colar</value>
+  </data>
+  <data name="MAIN_MENU_EDIT_REDO" xml:space="preserve">
+    <value>&amp;Refazer</value>
+  </data>
+  <data name="MAIN_MENU_EDIT_SELECT_ALL" xml:space="preserve">
+    <value>&amp;Selecionar Todos</value>
+  </data>
+  <data name="MAIN_MENU_EDIT_UNDO" xml:space="preserve">
+    <value>&amp;Desfazer</value>
+  </data>
+  <data name="MAIN_MENU_FILE" xml:space="preserve">
+    <value>&amp;Arquivo</value>
+  </data>
+  <data name="MAIN_MENU_FILE_EXIT" xml:space="preserve">
+    <value>&amp;Sair</value>
+  </data>
+  <data name="MAIN_MENU_FILE_NEW" xml:space="preserve">
+    <value>&amp;Novo</value>
+  </data>
+  <data name="MAIN_MENU_FILE_OPEN" xml:space="preserve">
+    <value>&amp;Abrir</value>
+  </data>
+  <data name="MAIN_MENU_FILE_PRINT" xml:space="preserve">
+    <value>&amp;Imprimir</value>
+  </data>
+  <data name="MAIN_MENU_FILE_PRINT_PREVIEW" xml:space="preserve">
+    <value>&amp;Visualizar Impressão</value>
+  </data>
+  <data name="MAIN_MENU_FILE_PRINT_SETUP" xml:space="preserve">
+    <value>&amp;Configurar Impressão</value>
+  </data>
+  <data name="MAIN_MENU_FILE_SAVE" xml:space="preserve">
+    <value>&amp;Salvar</value>
+  </data>
+  <data name="MAIN_MENU_FILE_SAVE_AS" xml:space="preserve">
+    <value>&amp;Salvar Como</value>
+  </data>
+  <data name="MAIN_MENU_HELP" xml:space="preserve">
+    <value>&amp;Ajuda</value>
+  </data>
+  <data name="MAIN_MENU_HELP_ABOUT" xml:space="preserve">
+    <value>&amp;Sobre</value>
+  </data>
+  <data name="MAIN_MENU_HELP_CONTENTS" xml:space="preserve">
+    <value>&amp;Conteúdo</value>
+  </data>
+  <data name="MAIN_MENU_HELP_INDEX" xml:space="preserve">
+    <value>&amp;Índice</value>
+  </data>
+  <data name="MAIN_MENU_HELP_SEARCH" xml:space="preserve">
+    <value>&amp;Localizar</value>
+  </data>
+  <data name="MAIN_MENU_TOOLS" xml:space="preserve">
+    <value>&amp;Ferramentas</value>
+  </data>
+  <data name="MAIN_MENU_TOOLS_OPTIONS" xml:space="preserve">
+    <value>&amp;Opções</value>
+  </data>
+  <data name="MAIN_MENU_VIEW" xml:space="preserve">
+    <value>&amp;Visualizar</value>
+  </data>
+  <data name="MAIN_MENU_VIEW_STATUS_BAR" xml:space="preserve">
+    <value>&amp;Barra de Estado</value>
+  </data>
+  <data name="MAIN_MENU_VIEW_TOOLBAR" xml:space="preserve">
+    <value>&amp;Barra de Ferramentas</value>
+  </data>
+  <data name="MAIN_MENU_WINDOWS" xml:space="preserve">
+    <value>&amp;Janelas</value>
+  </data>
+  <data name="MAIN_MENU_WINDOWS_ARRANGE_ALL" xml:space="preserve">
+    <value>&amp;Organizar</value>
+  </data>
+  <data name="MAIN_MENU_WINDOWS_CASCADE" xml:space="preserve">
+    <value>&amp;Cascata</value>
+  </data>
+  <data name="MAIN_MENU_WINDOWS_CLOSE_ALL" xml:space="preserve">
+    <value>&amp;Fechar Todas</value>
+  </data>
+  <data name="MAIN_MENU_WINDOWS_CLOSE_ALL_MBOX" xml:space="preserve">
+    <value>Deseja fechar todas as janelas?</value>
+  </data>
+  <data name="MAIN_MENU_WINDOWS_NEW_WINDOW" xml:space="preserve">
+    <value>&amp;Nova Janela</value>
+  </data>
+  <data name="MAIN_MENU_WINDOWS_TILE_HORIZONTAL" xml:space="preserve">
+    <value>Forma Horizontal</value>
+  </data>
+  <data name="MAIN_MENU_WINDOWS_TILE_VERTICAL" xml:space="preserve">
+    <value>Forma Vertical</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_BOA_NOITE" xml:space="preserve">
+    <value>Boa Noite</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_BOA_TARDE" xml:space="preserve">
+    <value>Boa Tarde</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_BOM_DIA" xml:space="preserve">
+    <value>Bom Dia</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_BTN_CANCELAR" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_BTN_SALVAR" xml:space="preserve">
+    <value>Aplicar</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_DOMINGO" xml:space="preserve">
+    <value>Dom</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_EMERGENCIA" xml:space="preserve">
+    <value>Emergência</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_GBOX_EMERGENCIA" xml:space="preserve">
+    <value>Mensagem de Emergência</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_GBOX_SAUDACOES" xml:space="preserve">
+    <value>Saudações</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_GBOX_SEMANA" xml:space="preserve">
+    <value>Dias da Semana</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_LABEL_DATAHORA_TEMPERATURA" xml:space="preserve">
+    <value>Data Hora e Temperatura</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_LABEL_DATA_HORA" xml:space="preserve">
+    <value>Data e Hora:</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_LABEL_HORA" xml:space="preserve">
+    <value>Hora:</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_LABEL_HORA_SAIDA" xml:space="preserve">
+    <value>Hora de Saída:</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_LABEL_HORA_TEMPERATURA" xml:space="preserve">
+    <value>Hora e Temperatura:</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_LABEL_SAIDA" xml:space="preserve">
+    <value>Saída:</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_LABEL_TARIFA" xml:space="preserve">
+    <value>Tarifa:</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_LABEL_TEMPERATURA" xml:space="preserve">
+    <value>Temperatura:</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_LABEL_VELOCIDADE" xml:space="preserve">
+    <value>Velocidade:</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_MBOX_APPLY" xml:space="preserve">
+    <value>Deseja aplicar as alterações de mensagens especiais?</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_MBOX_TYPE" xml:space="preserve">
+    <value>Confirmação</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_QUARTA" xml:space="preserve">
+    <value>Qua</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_QUINTA" xml:space="preserve">
+    <value>Qui</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_SABADO" xml:space="preserve">
+    <value>Sáb</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_SEGUNDA" xml:space="preserve">
+    <value>Seg</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_SEXTA" xml:space="preserve">
+    <value>Sex</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_TERCA" xml:space="preserve">
+    <value>Ter</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_TOOLSTRIP_ALIGN_BOTTOM" xml:space="preserve">
+    <value>Alinhar Abaixo</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_TOOLSTRIP_ALIGN_CENTER" xml:space="preserve">
+    <value>Centralizar</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_TOOLSTRIP_ALIGN_LEFT" xml:space="preserve">
+    <value>Alinhar a Esquerda</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_TOOLSTRIP_ALIGN_MIDDLE" xml:space="preserve">
+    <value>Alinhar ao Centro</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_TOOLSTRIP_ALIGN_RIGHT" xml:space="preserve">
+    <value>Alinhar a Direita</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_TOOLSTRIP_ALIGN_UP" xml:space="preserve">
+    <value>Alinhar Acima</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_TOOLSTRIP_ITALICO" xml:space="preserve">
+    <value>Itálico</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_TOOLSTRIP_LABEL_APRESENTACAO" xml:space="preserve">
+    <value>Apresentação</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_TOOLSTRIP_LABEL_FONTE" xml:space="preserve">
+    <value>Fonte</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_TOOLSTRIP_LABEL_ROLAGEM" xml:space="preserve">
+    <value>Tempo de Rolagem</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_TOOLSTRIP_LABEL_TAMANHO" xml:space="preserve">
+    <value>Tamanho</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_TOOLSTRIP_MUDAR_FONTE" xml:space="preserve">
+    <value>Mudar Fonte</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_TOOLSTRIP_NEGRITO" xml:space="preserve">
+    <value>Negrito</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_TOOLSTRIP_SUBLINHADO" xml:space="preserve">
+    <value>Sublinhado</value>
+  </data>
+  <data name="REGIOES_IDIOMAS_COMBOS_ARQUIVOS" xml:space="preserve">
+    <value>Nome do Arquivo</value>
+  </data>
+  <data name="REGIOES_IDIOMAS_COMBO_DATAHORA_24H" xml:space="preserve">
+    <value>24h</value>
+  </data>
+  <data name="REGIOES_IDIOMAS_COMBO_DATAHORA_AMPM" xml:space="preserve">
+    <value>Am/Pm</value>
+  </data>
+  <data name="REGIOES_IDIOMAS_COMBO_DECIMAL_PONTO" xml:space="preserve">
+    <value>Ponto (.)</value>
+  </data>
+  <data name="REGIOES_IDIOMAS_COMBO_DECIMAL_VIRGULA" xml:space="preserve">
+    <value>Vírgula(,)</value>
+  </data>
+  <data name="REGIOES_IDIOMAS_COMBO_MOEDA_DOLAR" xml:space="preserve">
+    <value>Dólar</value>
+  </data>
+  <data name="REGIOES_IDIOMAS_COMBO_MOEDA_PESO" xml:space="preserve">
+    <value>Peso</value>
+  </data>
+  <data name="REGIOES_IDIOMAS_COMBO_MOEDA_REAL" xml:space="preserve">
+    <value>Real</value>
+  </data>
+  <data name="REGIOES_IDIOMAS_COMBO_TEMPERATURA_CELSIUS" xml:space="preserve">
+    <value>Celsius</value>
+  </data>
+  <data name="REGIOES_IDIOMAS_COMBO_TEMPERATURA_FAHRENHEIT" xml:space="preserve">
+    <value>Fahrenheit</value>
+  </data>
+  <data name="REGIOES_IDIOMAS_COMBO_VELOCIDADE_KMH" xml:space="preserve">
+    <value>Km/h</value>
+  </data>
+  <data name="REGIOES_IDIOMAS_COMBO_VELOCIDADE_MPH" xml:space="preserve">
+    <value>Mi/h</value>
+  </data>
+  <data name="REGIOES_IDIOMAS_TAB_BTN_CANCELAR" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="REGIOES_IDIOMAS_TAB_BTN_OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="REGIOES_IDIOMAS_TAB_IDIOMAS_BTN_EDITAR" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="REGIOES_IDIOMAS_TAB_IDIOMAS_NOVO_TEXTO" xml:space="preserve">
+    <value>Novo Texto:</value>
+  </data>
+  <data name="REGIOES_IDIOMAS_TAB_IDIOMAS_TEXT" xml:space="preserve">
+    <value>Configurações de Idiomas</value>
+  </data>
+  <data name="REGIOES_IDIOMAS_TAB_REGIOES_MOEDA" xml:space="preserve">
+    <value>Moeda</value>
+  </data>
+  <data name="REGIOES_IDIOMAS_TAB_REGIOES_SEPARADOR_DECIMAL" xml:space="preserve">
+    <value>Separador Decimal </value>
+  </data>
+  <data name="REGIOES_IDIOMAS_TAB_REGIOES_TEMPERATURA" xml:space="preserve">
+    <value>Temperatura</value>
+  </data>
+  <data name="REGIOES_IDIOMAS_TAB_REGIOES_TEXT" xml:space="preserve">
+    <value>Configurações Regionais</value>
+  </data>
+  <data name="REGIOES_IDIOMAS_TAB_REGIOES_VELOCIDADE" xml:space="preserve">
+    <value>Velocidade</value>
+  </data>
+  <data name="REGIOES_IDIOMAS_TEXT" xml:space="preserve">
+    <value>Regiões e Idiomas</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_MENSAGENS_BTN_CONTRAIR" xml:space="preserve">
+    <value>Contrair</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_MENSAGENS_BTN_EXCLUIR" xml:space="preserve">
+    <value>Remover</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_MENSAGENS_BTN_EXPANDIR" xml:space="preserve">
+    <value>Expandir</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_MENSAGENS_BTN_INCLUIR" xml:space="preserve">
+    <value>Incluir</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_MENSAGENS_COLUNA_INDICE" xml:space="preserve">
+    <value>Índice</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_MENSAGENS_COLUNA_MENSAGEM" xml:space="preserve">
+    <value>Mensagem</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_MENSAGENS_MBOX_EXCLUIR" xml:space="preserve">
+    <value>Deseja remover a Mensagem?</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_MENSAGENS_MBOX_TYPE" xml:space="preserve">
+    <value>Confirmação</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_ROTEIROS_BTN_CONTRAIR" xml:space="preserve">
+    <value>Contrair</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_ROTEIROS_BTN_EXPANDIR" xml:space="preserve">
+    <value>Expandir</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_ROTEIROS_BTN_INCLUIR" xml:space="preserve">
+    <value>Incluir</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_ROTEIROS_BTN_REMOVER" xml:space="preserve">
+    <value>Remover</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_ROTEIROS_COLUNA_INDICE" xml:space="preserve">
+    <value>Índice</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_ROTEIROS_COLUNA_LABEL" xml:space="preserve">
+    <value>Texto do Roteiro</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_ROTEIROS_COLUNA_NUMERO" xml:space="preserve">
+    <value>Número</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_ROTEIROS_COLUNA_TEXTO_IDA" xml:space="preserve">
+    <value>Ida</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_ROTEIROS_COLUNA_TEXTO_VOLTA" xml:space="preserve">
+    <value>Volta</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_ROTEIROS_MBOX_EXCLUIR" xml:space="preserve">
+    <value>Deseja remover o Roteiro?</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_ROTEIROS_MBOX_TYPE" xml:space="preserve">
+    <value>Confirmação</value>
+  </data>
+  <data name="USER_CONTROL_MENSAGENS_BTN_APLICAR" xml:space="preserve">
+    <value>Aplicar</value>
+  </data>
+  <data name="USER_CONTROL_MENSAGENS_BTN_CANCELAR" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="USER_CONTROL_MENSAGENS_BTN_EXCLUIR" xml:space="preserve">
+    <value>Excluir</value>
+  </data>
+  <data name="USER_CONTROL_MENSAGENS_BTN_INCLUIR" xml:space="preserve">
+    <value>Incluir</value>
+  </data>
+  <data name="USER_CONTROL_MENSAGENS_CHECK_BOX_REPETIR" xml:space="preserve">
+    <value>Mesmos textos do painel 1 nos outros painéis.</value>
+  </data>
+  <data name="USER_CONTROL_MENSAGENS_DATA_GRID_INDICE" xml:space="preserve">
+    <value>Índice</value>
+  </data>
+  <data name="USER_CONTROL_MENSAGENS_DATA_GRID_TEXTO" xml:space="preserve">
+    <value>Texto</value>
+  </data>
+  <data name="USER_CONTROL_MENSAGENS_GROUP_BOX_TITLE" xml:space="preserve">
+    <value>Informações Básicas</value>
+  </data>
+  <data name="USER_CONTROL_MENSAGENS_LABEL_APRESENTACAO" xml:space="preserve">
+    <value>Apresentação padrão</value>
+  </data>
+  <data name="USER_CONTROL_MENSAGENS_LABEL_INDICE_MENSAGEM" xml:space="preserve">
+    <value>Índice da Mensagem</value>
+  </data>
+  <data name="USER_CONTROL_MENSAGENS_LABEL_MENSAGEM" xml:space="preserve">
+    <value>Texto da Mensagem</value>
+  </data>
+  <data name="USER_CONTROL_MENSAGENS_MBOX_ALTERAR" xml:space="preserve">
+    <value>Deseja aplicar as alterações?</value>
+  </data>
+  <data name="USER_CONTROL_MENSAGENS_MBOX_APLICAR" xml:space="preserve">
+    <value>Deseja aplicar a nova mensagem?</value>
+  </data>
+  <data name="USER_CONTROL_MENSAGENS_MBOX_APRESENTACAO" xml:space="preserve">
+    <value>Deseja essa apresentação para todos os textos?</value>
+  </data>
+  <data name="USER_CONTROL_MENSAGENS_MBOX_EXCLUIR_TEXTO" xml:space="preserve">
+    <value>Deseja remover o texto?</value>
+  </data>
+  <data name="USER_CONTROL_MENSAGENS_MBOX_TYPE" xml:space="preserve">
+    <value>Confirmação</value>
+  </data>
+  <data name="USER_CONTROL_MENSAGENS_TAB_IDA" xml:space="preserve">
+    <value>Texto</value>
+  </data>
+  <data name="USER_CONTROL_MODELOS_NUMERO" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="USER_CONTROL_MODELOS_TEXTO_01" xml:space="preserve">
+    <value>Texto 01</value>
+  </data>
+  <data name="USER_CONTROL_MODELOS_TEXTO_02" xml:space="preserve">
+    <value>Texto 02</value>
+  </data>
+  <data name="USER_CONTROL_MODELOS_TEXTO_03" xml:space="preserve">
+    <value>Texto 03</value>
+  </data>
+  <data name="USER_CONTROL_MODELOS_TEXTO_04" xml:space="preserve">
+    <value>Texto 04</value>
+  </data>
+  <data name="USER_CONTROL_ROTEIROS_BTN_APLICAR" xml:space="preserve">
+    <value>Aplicar</value>
+  </data>
+  <data name="USER_CONTROL_ROTEIROS_BTN_EDITAR_NUMERO" xml:space="preserve">
+    <value>Editar Número</value>
+  </data>
+  <data name="USER_CONTROL_ROTEIROS_BTN_EXCLUIR" xml:space="preserve">
+    <value>Excluir</value>
+  </data>
+  <data name="USER_CONTROL_ROTEIROS_BTN_INCLUIR" xml:space="preserve">
+    <value>Incluir</value>
+  </data>
+  <data name="USER_CONTROL_ROTEIROS_BTN_SAIR" xml:space="preserve">
+    <value>Sair</value>
+  </data>
+  <data name="USER_CONTROL_ROTEIROS_CHECK_BOX_IDA_VOLTA" xml:space="preserve">
+    <value>Textos de ida iguais aos textos de volta</value>
+  </data>
+  <data name="USER_CONTROL_ROTEIROS_CHECK_BOX_REPETIR" xml:space="preserve">
+    <value>Mesmos textos do painel 1 nos outros painéis.</value>
+  </data>
+  <data name="USER_CONTROL_ROTEIROS_DATA_GRID_INDICE" xml:space="preserve">
+    <value>Índice</value>
+  </data>
+  <data name="USER_CONTROL_ROTEIROS_DATA_GRID_TEXTO" xml:space="preserve">
+    <value>Texto</value>
+  </data>
+  <data name="USER_CONTROL_ROTEIROS_GROUP_BOX_INFO" xml:space="preserve">
+    <value>Informações Básicas</value>
+  </data>
+  <data name="USER_CONTROL_ROTEIROS_LABEL_APRESENTACAO" xml:space="preserve">
+    <value>Apresentação padrão</value>
+  </data>
+  <data name="USER_CONTROL_ROTEIROS_LABEL_INDICE_ROTEIRO" xml:space="preserve">
+    <value>Índice Roteiro</value>
+  </data>
+  <data name="USER_CONTROL_ROTEIROS_LABEL_NUMERO_ROTEIRO" xml:space="preserve">
+    <value>Número Roteiro</value>
+  </data>
+  <data name="USER_CONTROL_ROTEIROS_LABEL_ROTEIRO" xml:space="preserve">
+    <value>Texto de Roteiro</value>
+  </data>
+  <data name="USER_CONTROL_ROTEIROS_MBOX_ALTERAR" xml:space="preserve">
+    <value>Aplicar as alterações?</value>
+  </data>
+  <data name="USER_CONTROL_ROTEIROS_MBOX_APLICAR" xml:space="preserve">
+    <value>Aplicar o novo roteiro?</value>
+  </data>
+  <data name="USER_CONTROL_ROTEIROS_MBOX_APRESENTACAO" xml:space="preserve">
+    <value>Deseja essa apresentação para todos os textos do roteiro?</value>
+  </data>
+  <data name="USER_CONTROL_ROTEIROS_MBOX_EXCLUIR_TEXTOS_VOLTA" xml:space="preserve">
+    <value>Deseja remover os textos de volta?</value>
+  </data>
+  <data name="USER_CONTROL_ROTEIROS_MBOX_EXCLUIR_TEXTO_IDA" xml:space="preserve">
+    <value>Deseja remover o texto de partida?</value>
+  </data>
+  <data name="USER_CONTROL_ROTEIROS_MBOX_EXCLUIR_TEXTO_VOLTA" xml:space="preserve">
+    <value>Deseja remover o texto de volta?</value>
+  </data>
+  <data name="USER_CONTROL_ROTEIROS_MBOX_TYPE" xml:space="preserve">
+    <value>Confirmação</value>
+  </data>
+  <data name="USER_CONTROL_ROTEIROS_TAB_IDA" xml:space="preserve">
+    <value>Ida</value>
+  </data>
+  <data name="USER_CONTROL_ROTEIROS_TAB_VOLTA" xml:space="preserve">
+    <value>Volta</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MENSAGENS_BTN_CANCELAR" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MENSAGENS_BTN_CONTINUAR" xml:space="preserve">
+    <value>Continuar</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MENSAGENS_BTN_SALVAR" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MENSAGENS_GROUP_BOX_INFO" xml:space="preserve">
+    <value>Informações Básicas</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MENSAGENS_LABEL_INDICE" xml:space="preserve">
+    <value>Índice Mensagem</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MENSAGENS_LABEL_TEXT" xml:space="preserve">
+    <value>Texto de Mensagem</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MENSAGENS_TEXTO_AUTOMATICO" xml:space="preserve">
+    <value>Preencher automático</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MENSAGENS_TOOLSTRIP_ALIGN_BOTTOM" xml:space="preserve">
+    <value>Alinhar Abaixo</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MENSAGENS_TOOLSTRIP_ALIGN_CENTER" xml:space="preserve">
+    <value>Centralizar</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MENSAGENS_TOOLSTRIP_ALIGN_LEFT" xml:space="preserve">
+    <value>Alinhar a Esquerda</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MENSAGENS_TOOLSTRIP_ALIGN_MIDDLE" xml:space="preserve">
+    <value>Alinhar ao Centro</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MENSAGENS_TOOLSTRIP_ALIGN_RIGHT" xml:space="preserve">
+    <value>Alinhar a Direita</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MENSAGENS_TOOLSTRIP_ALIGN_UP" xml:space="preserve">
+    <value>Alinhar acima</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MENSAGENS_TOOLSTRIP_ITALICO" xml:space="preserve">
+    <value>Itálico</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MENSAGENS_TOOLSTRIP_LABEL_FONTE" xml:space="preserve">
+    <value>Fonte</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MENSAGENS_TOOLSTRIP_LABEL_MODELO" xml:space="preserve">
+    <value>Modelo</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MENSAGENS_TOOLSTRIP_LABEL_PRESENTATION" xml:space="preserve">
+    <value>Apresentação</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MENSAGENS_TOOLSTRIP_LABEL_ROLAGEM" xml:space="preserve">
+    <value>Tempo de Rolagem</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MENSAGENS_TOOLSTRIP_LABEL_TAMANHO" xml:space="preserve">
+    <value>Tamanho</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MENSAGENS_TOOLSTRIP_MUDAR_FONTE" xml:space="preserve">
+    <value>Mudar Fonte</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MENSAGENS_TOOLSTRIP_NEGRITO" xml:space="preserve">
+    <value>Negrito</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MENSAGENS_TOOLSTRIP_SUBLINHADO" xml:space="preserve">
+    <value>Sublinhado</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_NIVEL_SUAVIZACAO" xml:space="preserve">
+    <value>Nível de Suavização</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_ROTEIROS_BTN_CANCELAR" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_ROTEIROS_BTN_CONTINUAR" xml:space="preserve">
+    <value>Continuar</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_ROTEIROS_BTN_SALVAR" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_ROTEIROS_GROUP_BOX_INFO" xml:space="preserve">
+    <value>Informações Básicas</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_ROTEIROS_LABEL_FRASE" xml:space="preserve">
+    <value>Texto</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_ROTEIROS_LABEL_INDICE_ROTEIRO" xml:space="preserve">
+    <value>Índice Roteiro</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_ROTEIROS_LABEL_NUMERO_ROTEIRO" xml:space="preserve">
+    <value>Número Roteiro</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_ROTEIROS_TEXTO_AUTOMATICO" xml:space="preserve">
+    <value>Preencher automático</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_ROTEIROS_TOOLSTRIP_ALIGN_BOTTOM" xml:space="preserve">
+    <value>Alinhar Abaixo</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_ROTEIROS_TOOLSTRIP_ALIGN_CENTER" xml:space="preserve">
+    <value>Centralizar</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_ROTEIROS_TOOLSTRIP_ALIGN_LEFT" xml:space="preserve">
+    <value>Alinhar a Esquerda</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_ROTEIROS_TOOLSTRIP_ALIGN_MIDDLE" xml:space="preserve">
+    <value>Alinhar ao Centro</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_ROTEIROS_TOOLSTRIP_ALIGN_RIGHT" xml:space="preserve">
+    <value>Alinhar a Direita</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_ROTEIROS_TOOLSTRIP_ALIGN_UP" xml:space="preserve">
+    <value>Alinhar Acima</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_ROTEIROS_TOOLSTRIP_ITALICO" xml:space="preserve">
+    <value>Itálico</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_ROTEIROS_TOOLSTRIP_LABEL_APRESENTACAO" xml:space="preserve">
+    <value>Apresentação</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_ROTEIROS_TOOLSTRIP_LABEL_FONTE" xml:space="preserve">
+    <value>Fonte</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_ROTEIROS_TOOLSTRIP_LABEL_MODELO" xml:space="preserve">
+    <value>Modelo</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_ROTEIROS_TOOLSTRIP_LABEL_ROLAGEM" xml:space="preserve">
+    <value>Tempo de Rolagem</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_ROTEIROS_TOOLSTRIP_LABEL_TAMANHO" xml:space="preserve">
+    <value>Tamanho</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_ROTEIROS_TOOLSTRIP_MUDAR_FONTE" xml:space="preserve">
+    <value>Mudar fonte</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_ROTEIROS_TOOLSTRIP_NEGRITO" xml:space="preserve">
+    <value>Negrito</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_ROTEIROS_TOOLSTRIP_SUBLINHADO" xml:space="preserve">
+    <value>Sublinhado</value>
+  </data>
+  <data name="ARQUIVO_ALT_ROT_MSG_SECMSG" xml:space="preserve">
+    <value>ROT+MSG+MSG 2</value>
+  </data>
+  <data name="ARQUIVO_ALT_TIPO_EXIBICAO_DATA_HORA" xml:space="preserve">
+    <value>Data e Hora</value>
+  </data>
+  <data name="ARQUIVO_ALT_TIPO_EXIBICAO_HORA" xml:space="preserve">
+    <value>Hora</value>
+  </data>
+  <data name="ARQUIVO_ALT_TIPO_EXIBICAO_HORA_SAIDA" xml:space="preserve">
+    <value>Hora de Saída</value>
+  </data>
+  <data name="ARQUIVO_ALT_TIPO_EXIBICAO_HORA_TEMPERATURA" xml:space="preserve">
+    <value>Hora e Temperatura</value>
+  </data>
+  <data name="ARQUIVO_ALT_TIPO_EXIBICAO_MENSAGEM" xml:space="preserve">
+    <value>Mensagem</value>
+  </data>
+  <data name="ARQUIVO_ALT_TIPO_EXIBICAO_MENSAGEM_SECUNDARIA" xml:space="preserve">
+    <value>Mensagem Secundária</value>
+  </data>
+  <data name="ARQUIVO_ALT_TIPO_EXIBICAO_NUMERO" xml:space="preserve">
+    <value>Numero</value>
+  </data>
+  <data name="ARQUIVO_ALT_TIPO_EXIBICAO_ROTEIRO" xml:space="preserve">
+    <value>Roteiro</value>
+  </data>
+  <data name="ARQUIVO_ALT_TIPO_EXIBICAO_SAUDACAO" xml:space="preserve">
+    <value>Saudação</value>
+  </data>
+  <data name="ARQUIVO_ALT_TIPO_EXIBICAO_TARIFA" xml:space="preserve">
+    <value>Tarifa</value>
+  </data>
+  <data name="ARQUIVO_ALT_TIPO_EXIBICAO_TEMPERATURA" xml:space="preserve">
+    <value>Temperatura</value>
+  </data>
+  <data name="ARQUIVO_ALT_TIPO_EXIBICAO_VELOCIDADE" xml:space="preserve">
+    <value>Velocidade</value>
+  </data>
+  <data name="ARQUIVO_MBOX_MAXIMO_DE_PAINEIS" xml:space="preserve">
+    <value>Número máximo de painéis atingido</value>
+  </data>
+  <data name="ARQUIVO_MBOX_MUDAR_LARGURA_PAINEL" xml:space="preserve">
+    <value>Todas as configurações serão alteradas. Deseja realmente aplicar o novo tamanho?</value>
+  </data>
+  <data name="ARQUIVO_MBOX_MUDAR_PAINEL_SIMULACAO" xml:space="preserve">
+    <value>Deseja aplicar as alterações?</value>
+  </data>
+  <data name="ARQUIVO_MBOX_MUDAR_TABCONTROL_SIMULACAO" xml:space="preserve">
+    <value>Deseja aplicar as alterações?</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_SIMULACAO" xml:space="preserve">
+    <value>Simulação</value>
+  </data>
+  <data name="ARQUIVO_VIDEOBITMAP_TRACKBAR_ALTURA_INFERIOR" xml:space="preserve">
+    <value>Altura Inferior:</value>
+  </data>
+  <data name="ARQUIVO_VIDEOBITMAP_TRACKBAR_ALTURA_SUPERIOR" xml:space="preserve">
+    <value>Altura Superior:</value>
+  </data>
+  <data name="ARQUIVO_VIDEOBITMAP_TRACKBAR_LARGURA_DIREITA" xml:space="preserve">
+    <value>Largura Direita:</value>
+  </data>
+  <data name="ARQUIVO_VIDEOBITMAP_TRACKBAR_LARGURA_ESQUERDA" xml:space="preserve">
+    <value>Largura Esquerda:</value>
+  </data>
+  <data name="CONTROLADOR_COPIAR_ARQUIVOS_FIRMWARE" xml:space="preserve">
+    <value>Copiando arquivos de firmware...</value>
+  </data>
+  <data name="CRIAR_ALTERNANCIA_BUTTON_ADICIONAR" xml:space="preserve">
+    <value>Adicionar</value>
+  </data>
+  <data name="CRIAR_ALTERNANCIA_BUTTON_APLICAR" xml:space="preserve">
+    <value>Aplicar</value>
+  </data>
+  <data name="CRIAR_ALTERNANCIA_BUTTON_CANCELAR" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="CRIAR_ALTERNANCIA_BUTTON_REMOVER" xml:space="preserve">
+    <value>Remover</value>
+  </data>
+  <data name="CRIAR_ALTERNANCIA_FORM_LABEL" xml:space="preserve">
+    <value>Alternância</value>
+  </data>
+  <data name="CRIAR_ALTERNANCIA_GBOX_LABEL" xml:space="preserve">
+    <value>Nova Alternância</value>
+  </data>
+  <data name="CRIAR_ALTERNANCIA_MBOX_NOME_ALTERNANCIA" xml:space="preserve">
+    <value>Por favor, insira o nome da alternância!</value>
+  </data>
+  <data name="CRIAR_ALTERNANCIA_MBOX_SALVAR" xml:space="preserve">
+    <value>Alternância salva com sucesso!</value>
+  </data>
+  <data name="CRIAR_ALTERNANCIA_MBOX_SETE_TIPO_EXIBICAO" xml:space="preserve">
+    <value>Não pode haver mais de 7 tipos de alternância!</value>
+  </data>
+  <data name="CRIAR_ALTERNANCIA_MBOX_UM_TIPO_EXIBICAO" xml:space="preserve">
+    <value>Selecione ao menos 1 tipo de alternância</value>
+  </data>
+  <data name="CRIAR_ALTERNANCIA_TBOX_FILENAME" xml:space="preserve">
+    <value>Nome do arquivo</value>
+  </data>
+  <data name="EDITAR_SIMULACAO_BOTAO_APLICAR" xml:space="preserve">
+    <value>Aplicar</value>
+  </data>
+  <data name="EDITAR_SIMULACAO_BOTAO_SIMULAR" xml:space="preserve">
+    <value>Simular</value>
+  </data>
+  <data name="EDITAR_SIMULACAO_GBOX_ALTERNANCIA" xml:space="preserve">
+    <value>Alternância</value>
+  </data>
+  <data name="EDITAR_SIMULACAO_GBOX_INVERTER_LED" xml:space="preserve">
+    <value>Painel</value>
+  </data>
+  <data name="EDITAR_SIMULACAO_GBOX_MENSAGEM" xml:space="preserve">
+    <value>Mensagem</value>
+  </data>
+  <data name="EDITAR_SIMULACAO_GBOX_MENSAGEM_SECUNDARIA" xml:space="preserve">
+    <value>Mensagem Secundária</value>
+  </data>
+  <data name="EDITAR_SIMULACAO_GBOX_ROTEIRO" xml:space="preserve">
+    <value>Roteiro</value>
+  </data>
+  <data name="EDITAR_SIMULACAO_GBOX_SAUDACAO" xml:space="preserve">
+    <value>Hora da Saudação</value>
+  </data>
+  <data name="EDITAR_SIMULACAO_LABEL_BOA_NOITE" xml:space="preserve">
+    <value>Boa Noite</value>
+  </data>
+  <data name="EDITAR_SIMULACAO_LABEL_BOA_TARDE" xml:space="preserve">
+    <value>Boa Tarde</value>
+  </data>
+  <data name="EDITAR_SIMULACAO_LABEL_BOM_DIA" xml:space="preserve">
+    <value>Bom Dia</value>
+  </data>
+  <data name="EDITAR_SIMULACAO_LABEL_INVERTER_LED" xml:space="preserve">
+    <value>Tempo para Inverter LED</value>
+  </data>
+  <data name="EDITAR_SIMULACAO_LABEL_MIN_INVERTER_LED" xml:space="preserve">
+    <value>(Minutos)</value>
+  </data>
+  <data name="EDITAR_SIMULACAO_LV_MENSAGENS_INDICE" xml:space="preserve">
+    <value>Índice</value>
+  </data>
+  <data name="EDITAR_SIMULACAO_LV_MENSAGENS_TEXTO" xml:space="preserve">
+    <value>Texto</value>
+  </data>
+  <data name="EDITAR_SIMULACAO_LV_ROTEIROS_INDICE" xml:space="preserve">
+    <value>Índice</value>
+  </data>
+  <data name="EDITAR_SIMULACAO_LV_ROTEIROS_TEXTO" xml:space="preserve">
+    <value>Texto</value>
+  </data>
+  <data name="EDITAR_SIMULACAO_MBOX_BDIA_MAIOR_BTARDE" xml:space="preserve">
+    <value>A hora da saudação de bom dia não pode ser após a hora de boa tarde</value>
+  </data>
+  <data name="EDITAR_SIMULACAO_MBOX_BTARDE_MAIOR_BNOITE" xml:space="preserve">
+    <value>A hora de saudação de boa tarde não pode ser após a hora de boa noite</value>
+  </data>
+  <data name="EDITAR_SIMULACAO_MBOX_INVERTER_LED" xml:space="preserve">
+    <value>Por favor, digite um número entre 0 e 255!</value>
+  </data>
+  <data name="EDITAR_SIMULACAO_MBOX_VALOR_HORA" xml:space="preserve">
+    <value>Por favor, digite um número entre 0 e 23!</value>
+  </data>
+  <data name="EDITAR_SIMULACAO_RB_IDA" xml:space="preserve">
+    <value>Ida</value>
+  </data>
+  <data name="EDITAR_SIMULACAO_RB_VOLTA" xml:space="preserve">
+    <value>Volta</value>
+  </data>
+  <data name="MAIN_MENU_TOOLS_FARE" xml:space="preserve">
+    <value>Mudar Tarifa dos Roteiros</value>
+  </data>
+  <data name="MAIN_MENU_MBOX_JANELA_ATIVA" xml:space="preserve">
+    <value>Nenhuma Janela Ativa</value>
+  </data>
+  <data name="MAIN_MENU_TOOLS_REGION" xml:space="preserve">
+    <value>Nova Região</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_GBOX_FONTE_PAINEL" xml:space="preserve">
+    <value>Fonte Padrão do Painel</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_GBOX_PAINEL_FONTE" xml:space="preserve">
+    <value>Fonte Padrão do Painel</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_MILHAS_POR_HORA" xml:space="preserve">
+    <value>Mi/h</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_QUILOMETROS_POR_HORA" xml:space="preserve">
+    <value>Km/h</value>
+  </data>
+  <data name="MUDAR_TARIFA_BUTTON_APLICAR" xml:space="preserve">
+    <value>Aplicar</value>
+  </data>
+  <data name="MUDAR_TARIFA_BUTTON_CANCELAR" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="MUDAR_TARIFA_TODAS_TARIFAS_LABEL" xml:space="preserve">
+    <value>Mudar Tarifa para todos os Roteiros</value>
+  </data>
+  <data name="MUDAR_TARIFA_MBOX_APLICAR" xml:space="preserve">
+    <value>Deseja realmente alterar a tarifa para todos os roteiros?</value>
+  </data>
+  <data name="MUDAR_TARIFA_MBOX_TYPE" xml:space="preserve">
+    <value>Confirmação</value>
+  </data>
+  <data name="MUDAR_TARIFA_TEXT" xml:space="preserve">
+    <value>Tarifa</value>
+  </data>
+  <data name="REGIOES_IDIOMAS_TAB_REGIOES_OPCAO_AM_PM_PONTO" xml:space="preserve">
+    <value>Usar:</value>
+  </data>
+  <data name="SIMULACAO_PAINEL_FORM_TEXT" xml:space="preserve">
+    <value>Simulação de Painéis</value>
+  </data>
+  <data name="SIMULACAO_PAINEL_LABEL_PAINEL" xml:space="preserve">
+    <value>Painel</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MENSAGENS_TOOLSTRIP_MESCLAR" xml:space="preserve">
+    <value>Mesclar Painéis</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_ROTEIROS_TOOLSTRIP_MESCLAR" xml:space="preserve">
+    <value>Mesclar Painéis</value>
+  </data>
+  <data name="MAIN_MENU_BUTTON_HELP" xml:space="preserve">
+    <value>Ajuda</value>
+  </data>
+  <data name="MAIN_MENU_BUTTON_NEW" xml:space="preserve">
+    <value>Novo</value>
+  </data>
+  <data name="MAIN_MENU_BUTTON_OPEN" xml:space="preserve">
+    <value>Abrir</value>
+  </data>
+  <data name="MAIN_MENU_BUTTON_PRINT" xml:space="preserve">
+    <value>Imprimir</value>
+  </data>
+  <data name="MAIN_MENU_BUTTON_PRINT_PREVIEW" xml:space="preserve">
+    <value>Visualizar Impressão</value>
+  </data>
+  <data name="MAIN_MENU_BUTTON_SAVE" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+  <data name="MAIN_MENU_FILE_IMPORT_IMAGE" xml:space="preserve">
+    <value>Importar Imagem</value>
+  </data>
+  <data name="MAIN_MENU_FILE_RECENT" xml:space="preserve">
+    <value>Arquivos Recentes</value>
+  </data>
+  <data name="MAIN_MENU_TOOLS_FONT_EDITOR" xml:space="preserve">
+    <value>Editor de Fonte</value>
+  </data>
+  <data name="MAIN_MENU_TOOLS_PRESENTATION_SEQUENCE" xml:space="preserve">
+    <value>Alternância</value>
+  </data>
+  <data name="MENSAGEM_LABEL" xml:space="preserve">
+    <value>*FRT*</value>
+  </data>
+  <data name="ROTEIRO_LABEL" xml:space="preserve">
+    <value>Roteiro</value>
+  </data>
+  <data name="FILTRO_ABRIR" xml:space="preserve">
+    <value>Arquivos PontosX2 (*.LDX2)|*.LDX2|Arquivos Pontos 6 (*.LDX)|*.LDX|Todos (*.*)|*.*</value>
+  </data>
+  <data name="FILTRO_SALVAR" xml:space="preserve">
+    <value>Arquivos PontosX2 (*.LDX2)|*.LDX2|Todos (*.*)|*.*</value>
+  </data>
+  <data name="FIND_BUTTONFIND" xml:space="preserve">
+    <value>Localizar</value>
+  </data>
+  <data name="FIND_CANCEL" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="FIND_CAPTION_ROTA" xml:space="preserve">
+    <value>Localizar roteiro</value>
+  </data>
+  <data name="FIND_IGNORECASE" xml:space="preserve">
+    <value>Ignorar Maiúsculas</value>
+  </data>
+  <data name="FIND_MATCHWORD" xml:space="preserve">
+    <value>Coincidir palavra inteira</value>
+  </data>
+  <data name="FIND_OPTION" xml:space="preserve">
+    <value> Opções de busca  </value>
+  </data>
+  <data name="FIND_WHAT" xml:space="preserve">
+    <value>Localizar</value>
+  </data>
+  <data name="LABEL_DEFINE_NSS" xml:space="preserve">
+    <value>Definir Painel APP</value>
+  </data>
+  <data name="MAIN_MENU_TOOLS_LANGUAGE" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="SEND_NSS" xml:space="preserve">
+    <value>Enviar Arquivos APP</value>
+  </data>
+  <data name="TEXTO_ALTERNANCIA_btAplicar" xml:space="preserve">
+    <value>Aplicar</value>
+  </data>
+  <data name="TEXTO_ALTERNANCIA_btFechar" xml:space="preserve">
+    <value>Fechar</value>
+  </data>
+  <data name="TEXTO_ALTERNANCIA_btRestoreDefault" xml:space="preserve">
+    <value>Restaurar Padrão</value>
+  </data>
+  <data name="TEXTO_ALTERNANCIA_Caption" xml:space="preserve">
+    <value>Habilitar ou bloquear alternâncias.</value>
+  </data>
+  <data name="TEXTO_ALTERNANCIA_Texto" xml:space="preserve">
+    <value>Bloqueia o acesso a algumas alternâncias.</value>
+  </data>
+  <data name="TEXTO_ANTI_THEFT" xml:space="preserve">
+    <value>Anti-roubo:</value>
+  </data>
+  <data name="TEXTO_ENABLE_PASSWORDS" xml:space="preserve">
+    <value> Habilitar uso de senha </value>
+  </data>
+  <data name="TEXTO_FUNCOES_0" xml:space="preserve">
+    <value>ROTEIRO</value>
+  </data>
+  <data name="TEXTO_FUNCOES_1" xml:space="preserve">
+    <value>MENSAGEM</value>
+  </data>
+  <data name="TEXTO_FUNCOES_10" xml:space="preserve">
+    <value>COLETA DUMP</value>
+  </data>
+  <data name="TEXTO_FUNCOES_11" xml:space="preserve">
+    <value>COLETA LOG</value>
+  </data>
+  <data name="TEXTO_FUNCOES_12" xml:space="preserve">
+    <value>APAGAR CONFIG.</value>
+  </data>
+  <data name="TEXTO_FUNCOES_13" xml:space="preserve">
+    <value>ACENDER PAINEIS</value>
+  </data>
+  <data name="TEXTO_FUNCOES_14" xml:space="preserve">
+    <value>CONFIGURACAO FABRICA</value>
+  </data>
+  <data name="TEXTO_FUNCOES_15" xml:space="preserve">
+    <value>MENSAGEM SECUNDARIA </value>
+  </data>
+  <data name="TEXTO_FUNCOES_2" xml:space="preserve">
+    <value>IDA / VOLTA</value>
+  </data>
+  <data name="TEXTO_FUNCOES_3" xml:space="preserve">
+    <value>ALTERNA ROTEIRO COM</value>
+  </data>
+  <data name="TEXTO_FUNCOES_4" xml:space="preserve">
+    <value>SELECIONA PAINEL</value>
+  </data>
+  <data name="TEXTO_FUNCOES_5" xml:space="preserve">
+    <value>AJUSTA HORA SAIDA</value>
+  </data>
+  <data name="TEXTO_FUNCOES_6" xml:space="preserve">
+    <value>AJUSTA RELOGIO</value>
+  </data>
+  <data name="TEXTO_FUNCOES_7" xml:space="preserve">
+    <value>SELECIONA REGIAO</value>
+  </data>
+  <data name="TEXTO_FUNCOES_8" xml:space="preserve">
+    <value>EMPARELHA PAINEL</value>
+  </data>
+  <data name="TEXTO_FUNCOES_9" xml:space="preserve">
+    <value>NOVA CONFIG.</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_ROTEIROS_LABEL_IMAGEM" xml:space="preserve">
+    <value>Imagem</value>
+  </data>
+  <data name="TEXTO_LOCK_FUNCTIONS" xml:space="preserve">
+    <value>Bloqueio de funções </value>
+  </data>
+  <data name="TEXTO_LOCK_KEYBOARD" xml:space="preserve">
+    <value> Bloqueio de Teclado </value>
+  </data>
+  <data name="TEXTO_PASSWORDS" xml:space="preserve">
+    <value> Senhas </value>
+  </data>
+  <data name="TEXTO_SPECIAL_ACCESS" xml:space="preserve">
+    <value>Senha para desbloqueio das funções: </value>
+  </data>
+  <data name="TEXTO_USE_ONLY_NUMBERS" xml:space="preserve">
+    <value>Use apenas números</value>
+  </data>
+  <data name="MAIN_MENU_BUTTON_FIND" xml:space="preserve">
+    <value>Localizar...</value>
+  </data>
+  <data name="CRIAR_ALTERNANCIA_BUTTON_RESTAURAR" xml:space="preserve">
+    <value>Restaurar Padrão</value>
+  </data>
+  <data name="CRIAR_ALTERNANCIA_BUTTON_RESTAURAR_MBOX" xml:space="preserve">
+    <value>A alternância foi restaurada com sucesso!</value>
+  </data>
+  <data name="CRIAR_ALTERNANCIA_BUTTON_RESTAURAR_MBOX_CONFIRM" xml:space="preserve">
+    <value>As alternâncias cadastradas serão substituidas pela alternância padrão do sistema. Deseja restaurar?</value>
+  </data>
+  <data name="CRIAR_ALTERNANCIA_BUTTON_RESTAURAR_MBOX_EXCEPTION" xml:space="preserve">
+    <value>A alternância não pode ser restaurada!</value>
+  </data>
+  <data name="CRIAR_ALTERNANCIA_BUTTON_RESTAURAR_TOOLTIP" xml:space="preserve">
+    <value>As alternâncias cadastradas serão substituidas pela alternância padrão do sistema</value>
+  </data>
+  <data name="MAIN_MENU_TOOLS_PRESENTATION_SEQUENCE_MBOX" xml:space="preserve">
+    <value>Feche todas as janelas antes de alterar a alternância</value>
+  </data>
+  <data name="TEXTO_0_ARQUIVO_LPK" xml:space="preserve">
+    <value>  RECONHECENDO  </value>
+  </data>
+  <data name="TEXTO_10_ARQUIVO_LPK" xml:space="preserve">
+    <value>ROTEIROS        </value>
+  </data>
+  <data name="TEXTO_11_ARQUIVO_LPK" xml:space="preserve">
+    <value>MENSAGENS       </value>
+  </data>
+  <data name="TEXTO_12_ARQUIVO_LPK" xml:space="preserve">
+    <value>NUMERO DE SÉRIE </value>
+  </data>
+  <data name="TEXTO_13_ARQUIVO_LPK" xml:space="preserve">
+    <value>PAINEL          </value>
+  </data>
+  <data name="TEXTO_14_ARQUIVO_LPK" xml:space="preserve">
+    <value>AJUSTAR PARTIDA </value>
+  </data>
+  <data name="TEXTO_15_ARQUIVO_LPK" xml:space="preserve">
+    <value>SENTIDO         </value>
+  </data>
+  <data name="TEXTO_16_ARQUIVO_LPK" xml:space="preserve">
+    <value>IDA             </value>
+  </data>
+  <data name="TEXTO_17_ARQUIVO_LPK" xml:space="preserve">
+    <value>VOLTA           </value>
+  </data>
+  <data name="TEXTO_18_ARQUIVO_LPK" xml:space="preserve">
+    <value>IDENTIFICANDO   </value>
+  </data>
+  <data name="TEXTO_19_ARQUIVO_LPK" xml:space="preserve">
+    <value>E003 FALHA</value>
+  </data>
+  <data name="TEXTO_1_ARQUIVO_LPK" xml:space="preserve">
+    <value>DISPOSITIVO USB </value>
+  </data>
+  <data name="TEXTO_20_ARQUIVO_LPK" xml:space="preserve">
+    <value>     SUCESSO    </value>
+  </data>
+  <data name="TEXTO_21_ARQUIVO_LPK" xml:space="preserve">
+    <value>                </value>
+  </data>
+  <data name="TEXTO_22_ARQUIVO_LPK" xml:space="preserve">
+    <value>NOVA CONFIG.    </value>
+  </data>
+  <data name="TEXTO_23_ARQUIVO_LPK" xml:space="preserve">
+    <value>AJUSTAR RELOGIO </value>
+  </data>
+  <data name="TEXTO_24_ARQUIVO_LPK" xml:space="preserve">
+    <value>SELEC. REGIÃO   </value>
+  </data>
+  <data name="TEXTO_25_ARQUIVO_LPK" xml:space="preserve">
+    <value>CONFIGURAÇÕES   </value>
+  </data>
+  <data name="TEXTO_26_ARQUIVO_LPK" xml:space="preserve">
+    <value>EMPARELHAR      </value>
+  </data>
+  <data name="TEXTO_27_ARQUIVO_LPK" xml:space="preserve">
+    <value>COLETAR DUMP    </value>
+  </data>
+  <data name="TEXTO_28_ARQUIVO_LPK" xml:space="preserve">
+    <value>FORMAT. PENDRIVE</value>
+  </data>
+  <data name="TEXTO_29_ARQUIVO_LPK" xml:space="preserve">
+    <value>DOMSEGTERQUAQUI </value>
+  </data>
+  <data name="TEXTO_2_ARQUIVO_LPK" xml:space="preserve">
+    <value>E001 DISPOSITIVO</value>
+  </data>
+  <data name="TEXTO_30_ARQUIVO_LPK" xml:space="preserve">
+    <value>SEXSAB          </value>
+  </data>
+  <data name="TEXTO_31_ARQUIVO_LPK" xml:space="preserve">
+    <value>MENSAGEM        </value>
+  </data>
+  <data name="TEXTO_32_ARQUIVO_LPK" xml:space="preserve">
+    <value>SELECIONA PAINEL</value>
+  </data>
+  <data name="TEXTO_33_ARQUIVO_LPK" xml:space="preserve">
+    <value>ROTEIRO         </value>
+  </data>
+  <data name="TEXTO_34_ARQUIVO_LPK" xml:space="preserve">
+    <value>Automático?     </value>
+  </data>
+  <data name="TEXTO_35_ARQUIVO_LPK" xml:space="preserve">
+    <value>                </value>
+  </data>
+  <data name="TEXTO_36_ARQUIVO_LPK" xml:space="preserve">
+    <value>PAINEIS         </value>
+  </data>
+  <data name="TEXTO_37_ARQUIVO_LPK" xml:space="preserve">
+    <value>Formatar?</value>
+  </data>
+  <data name="TEXTO_38_ARQUIVO_LPK" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TEXTO_39_ARQUIVO_LPK" xml:space="preserve">
+    <value>ATUALIZANDO     </value>
+  </data>
+  <data name="TEXTO_3_ARQUIVO_LPK" xml:space="preserve">
+    <value>IMCOMPATÍVEL</value>
+  </data>
+  <data name="TEXTO_40_ARQUIVO_LPK" xml:space="preserve">
+    <value>REMOVA PENDRIVE </value>
+  </data>
+  <data name="TEXTO_41_ARQUIVO_LPK" xml:space="preserve">
+    <value>    RESETANDO   </value>
+  </data>
+  <data name="TEXTO_42_ARQUIVO_LPK" xml:space="preserve">
+    <value>E004 Carregue</value>
+  </data>
+  <data name="TEXTO_43_ARQUIVO_LPK" xml:space="preserve">
+    <value>nova config.</value>
+  </data>
+  <data name="TEXTO_44_ARQUIVO_LPK" xml:space="preserve">
+    <value>APAGAR ARQUIVOS </value>
+  </data>
+  <data name="TEXTO_45_ARQUIVO_LPK" xml:space="preserve">
+    <value>SINCRONIZANDO   </value>
+  </data>
+  <data name="TEXTO_46_ARQUIVO_LPK" xml:space="preserve">
+    <value>E005 Painel xx</value>
+  </data>
+  <data name="TEXTO_47_ARQUIVO_LPK" xml:space="preserve">
+    <value>não detectado</value>
+  </data>
+  <data name="TEXTO_48_ARQUIVO_LPK" xml:space="preserve">
+    <value>OPÇÕES AVANÇADAS</value>
+  </data>
+  <data name="TEXTO_49_ARQUIVO_LPK" xml:space="preserve">
+    <value>COLETANDO       </value>
+  </data>
+  <data name="TEXTO_4_ARQUIVO_LPK" xml:space="preserve">
+    <value>E002 FUNÇÃO</value>
+  </data>
+  <data name="TEXTO_50_ARQUIVO_LPK" xml:space="preserve">
+    <value>COLETAR LOG     </value>
+  </data>
+  <data name="TEXTO_51_ARQUIVO_LPK" xml:space="preserve">
+    <value>E006 Painel xx</value>
+  </data>
+  <data name="TEXTO_52_ARQUIVO_LPK" xml:space="preserve">
+    <value>está com defeito</value>
+  </data>
+  <data name="TEXTO_53_ARQUIVO_LPK" xml:space="preserve">
+    <value>SIM     NÃO     </value>
+  </data>
+  <data name="TEXTO_54_ARQUIVO_LPK" xml:space="preserve">
+    <value>Desbloquear a   </value>
+  </data>
+  <data name="TEXTO_55_ARQUIVO_LPK" xml:space="preserve">
+    <value>função?         </value>
+  </data>
+  <data name="TEXTO_56_ARQUIVO_LPK" xml:space="preserve">
+    <value>SENHA           </value>
+  </data>
+  <data name="TEXTO_57_ARQUIVO_LPK" xml:space="preserve">
+    <value>E007 SENHA</value>
+  </data>
+  <data name="TEXTO_58_ARQUIVO_LPK" xml:space="preserve">
+    <value>INCORRETA</value>
+  </data>
+  <data name="TEXTO_59_ARQUIVO_LPK" xml:space="preserve">
+    <value>CONTROLADOR     </value>
+  </data>
+  <data name="TEXTO_5_ARQUIVO_LPK" xml:space="preserve">
+    <value>BLOQUEADA</value>
+  </data>
+  <data name="TEXTO_60_ARQUIVO_LPK" xml:space="preserve">
+    <value>TODOS DISP.     </value>
+  </data>
+  <data name="TEXTO_61_ARQUIVO_LPK" xml:space="preserve">
+    <value>TODOS PAINEIS   </value>
+  </data>
+  <data name="TEXTO_62_ARQUIVO_LPK" xml:space="preserve">
+    <value>E008 PRECISA</value>
+  </data>
+  <data name="TEXTO_63_ARQUIVO_LPK" xml:space="preserve">
+    <value>FORMATAR MEMÓRIA</value>
+  </data>
+  <data name="TEXTO_64_ARQUIVO_LPK" xml:space="preserve">
+    <value>ACENDER PAINEIS </value>
+  </data>
+  <data name="TEXTO_65_ARQUIVO_LPK" xml:space="preserve">
+    <value>E009 SENHA ANTI</value>
+  </data>
+  <data name="TEXTO_66_ARQUIVO_LPK" xml:space="preserve">
+    <value>FURTO INCORRETA</value>
+  </data>
+  <data name="TEXTO_67_ARQUIVO_LPK" xml:space="preserve">
+    <value>SAIDA:</value>
+  </data>
+  <data name="TEXTO_68_ARQUIVO_LPK" xml:space="preserve">
+    <value>DOM</value>
+  </data>
+  <data name="TEXTO_69_ARQUIVO_LPK" xml:space="preserve">
+    <value>SEG</value>
+  </data>
+  <data name="TEXTO_6_ARQUIVO_LPK" xml:space="preserve">
+    <value>AGUARDE         </value>
+  </data>
+  <data name="TEXTO_70_ARQUIVO_LPK" xml:space="preserve">
+    <value>TER</value>
+  </data>
+  <data name="TEXTO_71_ARQUIVO_LPK" xml:space="preserve">
+    <value>QUA</value>
+  </data>
+  <data name="TEXTO_72_ARQUIVO_LPK" xml:space="preserve">
+    <value>QUI</value>
+  </data>
+  <data name="TEXTO_73_ARQUIVO_LPK" xml:space="preserve">
+    <value>SEX</value>
+  </data>
+  <data name="TEXTO_74_ARQUIVO_LPK" xml:space="preserve">
+    <value>SAB</value>
+  </data>
+  <data name="TEXTO_75_ARQUIVO_LPK" xml:space="preserve">
+    <value>CONFIG. FÁBRICA </value>
+  </data>
+  <data name="TEXTO_76_ARQUIVO_LPK" xml:space="preserve">
+    <value>E010 FALHA DE</value>
+  </data>
+  <data name="TEXTO_77_ARQUIVO_LPK" xml:space="preserve">
+    <value>COMUNICAÇÃO     </value>
+  </data>
+  <data name="TEXTO_78_ARQUIVO_LPK" xml:space="preserve">
+    <value>E011 NOVA CONFIG</value>
+  </data>
+  <data name="TEXTO_79_ARQUIVO_LPK" xml:space="preserve">
+    <value>INVÁLIDA        </value>
+  </data>
+  <data name="TEXTO_7_ARQUIVO_LPK" xml:space="preserve">
+    <value>    COLOQUE O   </value>
+  </data>
+  <data name="TEXTO_80_ARQUIVO_LPK" xml:space="preserve">
+    <value>E012 EMPARELHAM.</value>
+  </data>
+  <data name="TEXTO_81_ARQUIVO_LPK" xml:space="preserve">
+    <value>INCOMPATÍVEL    </value>
+  </data>
+  <data name="TEXTO_82_ARQUIVO_LPK" xml:space="preserve">
+    <value>TEMPO ACESO     </value>
+  </data>
+  <data name="TEXTO_83_ARQUIVO_LPK" xml:space="preserve">
+    <value>TEMPO APAGADO   </value>
+  </data>
+  <data name="TEXTO_84_ARQUIVO_LPK" xml:space="preserve">
+    <value>INDEFINIDAMENTE </value>
+  </data>
+  <data name="TEXTO_85_ARQUIVO_LPK" xml:space="preserve">
+    <value>E013 APP não foi</value>
+  </data>
+  <data name="TEXTO_86_ARQUIVO_LPK" xml:space="preserve">
+    <value>detectado       </value>
+  </data>
+  <data name="TEXTO_87_ARQUIVO_LPK" xml:space="preserve">
+    <value>Nenhum arquivo</value>
+  </data>
+  <data name="TEXTO_88_ARQUIVO_LPK" xml:space="preserve">
+    <value>MSG SECUNDÁRIA </value>
+  </data>
+  <data name="TEXTO_89_ARQUIVO_LPK" xml:space="preserve">
+    <value>MSG PRINCIPAL</value>
+  </data>
+  <data name="TEXTO_8_ARQUIVO_LPK" xml:space="preserve">
+    <value>    PENDRIVE    </value>
+  </data>
+  <data name="TEXTO_90_ARQUIVO_LPK" xml:space="preserve">
+    <value>Nomeie a pasta: </value>
+  </data>
+  <data name="TEXTO_91_ARQUIVO_LPK" xml:space="preserve">
+    <value>Automático</value>
+  </data>
+  <data name="TEXTO_92_ARQUIVO_LPK" xml:space="preserve">
+    <value>Linhas</value>
+  </data>
+  <data name="TEXTO_93_ARQUIVO_LPK" xml:space="preserve">
+    <value>Colunas</value>
+  </data>
+  <data name="TEXTO_94_ARQUIVO_LPK" xml:space="preserve">
+    <value>Apagado</value>
+  </data>
+  <data name="TEXTO_95_ARQUIVO_LPK" xml:space="preserve">
+    <value>Aceso </value>
+  </data>
+  <data name="TEXTO_96_ARQUIVO_LPK" xml:space="preserve">
+    <value>Texto</value>
+  </data>
+  <data name="TEXTO_97_ARQUIVO_LPK" xml:space="preserve">
+    <value>Desligar Teste</value>
+  </data>
+  <data name="TEXTO_98_ARQUIVO_LPK" xml:space="preserve">
+    <value>Modo Teste</value>
+  </data>
+  <data name="TEXTO_99_ARQUIVO_LPK" xml:space="preserve">
+    <value>APP</value>
+  </data>
+  <data name="TEXTO_9_ARQUIVO_LPK" xml:space="preserve">
+    <value>VERSÃO          </value>
+  </data>
+  <data name="EDITOR_FONTES_BT_ACENDER" xml:space="preserve">
+    <value>Pintar LED</value>
+  </data>
+  <data name="EDITOR_FONTES_BT_ACENDER_TODOS" xml:space="preserve">
+    <value>Pintar todos os LEDs</value>
+  </data>
+  <data name="EDITOR_FONTES_BT_ALINHAR_ABAIXO" xml:space="preserve">
+    <value>Alinhar Abaixo</value>
+  </data>
+  <data name="EDITOR_FONTES_BT_ALINHAR_ACIMA" xml:space="preserve">
+    <value>Alinhar Acima</value>
+  </data>
+  <data name="EDITOR_FONTES_BT_ALINHAR_CENTRO" xml:space="preserve">
+    <value>Centralizar</value>
+  </data>
+  <data name="EDITOR_FONTES_BT_ALINHAR_DIREITA" xml:space="preserve">
+    <value>Alinhar a Direita</value>
+  </data>
+  <data name="EDITOR_FONTES_BT_ALINHAR_ESQUERDA" xml:space="preserve">
+    <value>Alinhar a Esquerda</value>
+  </data>
+  <data name="EDITOR_FONTES_BT_ALINHAR_MEIO" xml:space="preserve">
+    <value>Alinhar ao Meio</value>
+  </data>
+  <data name="EDITOR_FONTES_BT_APAGAR" xml:space="preserve">
+    <value>Apagar LED</value>
+  </data>
+  <data name="EDITOR_FONTES_BT_APAGAR_TODOS" xml:space="preserve">
+    <value>Apagar todos os LEDs</value>
+  </data>
+  <data name="EDITOR_FONTES_BT_INVERTER" xml:space="preserve">
+    <value>Inverter LED</value>
+  </data>
+  <data name="EDITOR_FONTES_BT_INVERTER_TODOS" xml:space="preserve">
+    <value>Inverter todos os LEDs</value>
+  </data>
+  <data name="EDITOR_FONTES_BT_ITALICO" xml:space="preserve">
+    <value>Itálico</value>
+  </data>
+  <data name="EDITOR_FONTES_BT_NEGRITO" xml:space="preserve">
+    <value>Negrito</value>
+  </data>
+  <data name="EDITOR_FONTES_BT_NEW" xml:space="preserve">
+    <value>Nova Fonte</value>
+  </data>
+  <data name="EDITOR_FONTES_BT_OPEN" xml:space="preserve">
+    <value>Abrir Fonte</value>
+  </data>
+  <data name="EDITOR_FONTES_BT_SAVE" xml:space="preserve">
+    <value>Salvar Fonte</value>
+  </data>
+  <data name="EDITOR_FONTES_BT_SUBLINHADO" xml:space="preserve">
+    <value>Sublinhado</value>
+  </data>
+  <data name="EDITOR_FONTES_FILTRO_SALVAR" xml:space="preserve">
+    <value>Arquivo de Fonte (*.FNT)|*.FNT</value>
+  </data>
+  <data name="EDITOR_FONTES_FORM_TEXT" xml:space="preserve">
+    <value>Editor de Fonte</value>
+  </data>
+  <data name="EDITOR_FONTES_GBOX_CARACTERE" xml:space="preserve">
+    <value>Editor de Caractere</value>
+  </data>
+  <data name="EDITOR_FONTES_GBOX_CARACTERES" xml:space="preserve">
+    <value>Mapa de Caracteres</value>
+  </data>
+  <data name="EDITOR_FONTES_GBOX_FONTE" xml:space="preserve">
+    <value>Fonte</value>
+  </data>
+  <data name="EDITOR_FONTES_GBOX_INFORMACOES" xml:space="preserve">
+    <value>Informações da Fonte</value>
+  </data>
+  <data name="EDITOR_FONTES_GBOX_PAINEL" xml:space="preserve">
+    <value>Painel</value>
+  </data>
+  <data name="EDITOR_FONTES_LABEL_ALTURA" xml:space="preserve">
+    <value>Altura Máxima:</value>
+  </data>
+  <data name="EDITOR_FONTES_LABEL_APLICAR_TODOS" xml:space="preserve">
+    <value>Aplicar para todos os caracteres</value>
+  </data>
+  <data name="EDITOR_FONTES_LABEL_ASC" xml:space="preserve">
+    <value>Código ASCII</value>
+  </data>
+  <data name="EDITOR_FONTES_LABEL_FONTE" xml:space="preserve">
+    <value>Fonte</value>
+  </data>
+  <data name="EDITOR_FONTES_LABEL_FONTE_TAMANHO" xml:space="preserve">
+    <value>Tamanho</value>
+  </data>
+  <data name="EDITOR_FONTES_LABEL_LARGURA" xml:space="preserve">
+    <value>Largura Máxima:</value>
+  </data>
+  <data name="EDITOR_FONTES_LABEL_NOME" xml:space="preserve">
+    <value>Nome da Fonte:</value>
+  </data>
+  <data name="EDITOR_FONTES_LABEL_PINTAR" xml:space="preserve">
+    <value>Pintar</value>
+  </data>
+  <data name="EDITOR_FONTES_LABEL_SUAVIZACAO" xml:space="preserve">
+    <value>Suavização</value>
+  </data>
+  <data name="EDITOR_FONTES_LARGURA_CARACTERE" xml:space="preserve">
+    <value>Largura do Caractere</value>
+  </data>
+  <data name="EDITOR_FONTES_NOVA_FONTE" xml:space="preserve">
+    <value>Nova Fonte</value>
+  </data>
+  <data name="EDITOR_FONTES_MBOX_ALTURA_TAMANHO" xml:space="preserve">
+    <value>A altura deve estar entre</value>
+  </data>
+  <data name="EDITOR_FONTES_MBOX_ERRO_APLICAR_CARACTERES" xml:space="preserve">
+    <value>Não foi possível aplicar a mudança para os caracteres!</value>
+  </data>
+  <data name="EDITOR_FONTES_MBOX_ERRO_CRIAR" xml:space="preserve">
+    <value>Não foi possível criar uma nova fonte!</value>
+  </data>
+  <data name="EDITOR_FONTES_MBOX_ERRO_SALVAR" xml:space="preserve">
+    <value>Não foi possível salvar a fonte!</value>
+  </data>
+  <data name="EDITOR_FONTES_MBOX_FORMATO_INVALIDO_FNT" xml:space="preserve">
+    <value>Formato de arquivo .fnt inválido!</value>
+  </data>
+  <data name="EDITOR_FONTES_MBOX_LARGURA_CARACTERE_FONTE" xml:space="preserve">
+    <value>A largura do caracterer não pode ser maior que a largura máxima da fonte!</value>
+  </data>
+  <data name="EDITOR_FONTES_MBOX_LARGURA_TAMANHO" xml:space="preserve">
+    <value>A largura deve estar entre</value>
+  </data>
+  <data name="EDITOR_FONTES_MBOX_MUDAR_ALTURA_CARACTERES" xml:space="preserve">
+    <value>Todos os caracteres serão alterados. Deseja aplicar a nova altura?</value>
+  </data>
+  <data name="EDITOR_FONTES_MBOX_MUDAR_LARGURA_DEFAULT" xml:space="preserve">
+    <value>Todos os caracteres serão alterados e cada um terá uma largura diferente. Deseja aplicar?</value>
+  </data>
+  <data name="EDITOR_FONTES_MBOX_MUDAR_LARGURA_TODOS_IGUAIS" xml:space="preserve">
+    <value>Todos os caracteres serão alterados e eles terão a mesma largura. Deseja aplicar?</value>
+  </data>
+  <data name="EDITOR_FONTES_MBOX_NOME_VAZIO" xml:space="preserve">
+    <value>Insira o nome da fonte!</value>
+  </data>
+  <data name="EDITOR_FONTES_MBOX_NUMERO_VALIDO" xml:space="preserve">
+    <value>Insira um número válido!</value>
+  </data>
+  <data name="EDITOR_FONTES_MBOX_SOBRESCREVER_FONTE" xml:space="preserve">
+    <value>A fonte será sobrescrita. Deseja sobrescrever?</value>
+  </data>
+  <data name="EDITOR_FONTES_MBOX_TAMANHO_MAX_NOME" xml:space="preserve">
+    <value>O nome da fonte não pode ser maior que 40 caracteres!</value>
+  </data>
+  <data name="MAIN_MENU_TOOLS_FONT_EDITOR_MBOX" xml:space="preserve">
+    <value>Feche todas as janelas antes de editar fontes</value>
+  </data>
+  <data name="TEXTO_ALTERNANCIA_chkAll" xml:space="preserve">
+    <value>Checar Todos</value>
+  </data>
+  <data name="TEXTO_ALTERNANCIA_MBOX" xml:space="preserve">
+    <value>Selecione ao menos uma alternância</value>
+  </data>
+  <data name="USER_CONTROL_ROTEIROS_LABEL_TARIFA" xml:space="preserve">
+    <value>Tarifa</value>
+  </data>
+  <data name="SPLASH_MENSAGEM_FINALIZANDO" xml:space="preserve">
+    <value>finalizando</value>
+  </data>
+  <data name="SPLASH_MENSAGEM_INICIANDO" xml:space="preserve">
+    <value>inicializando</value>
+  </data>
+  <data name="SPLASH_MENSAGEM_NINBUS" xml:space="preserve">
+    <value>verificando instalação do Ninbus</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MENSAGENS_LABEL_IMAGEM" xml:space="preserve">
+    <value>Imagem</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MENSAGENS_TOOLSTRIP_IMAGEM" xml:space="preserve">
+    <value>Inserir Imagem</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_ROTEIROS_TOOLSTRIP_IMAGEM" xml:space="preserve">
+    <value>Inserir Imagem</value>
+  </data>
+  <data name="ARQUIVO_MBOX_FONTE_NAO_ENCONTRADA" xml:space="preserve">
+    <value>Algumas fontes não foram encontradas. Essas fontes foram substituidas pelo sistema!</value>
+  </data>
+  <data name="COMBO_OPERACOES_AGENDAMENTO_ALTERNANCIA" xml:space="preserve">
+    <value>Modificar Alternância</value>
+  </data>
+  <data name="COMBO_OPERACOES_AGENDAMENTO_HORA_SAIDA" xml:space="preserve">
+    <value>Modificar Hora de Saída</value>
+  </data>
+  <data name="COMBO_OPERACOES_AGENDAMENTO_MENSAGEM" xml:space="preserve">
+    <value>Modificar Mensagem</value>
+  </data>
+  <data name="COMBO_OPERACOES_AGENDAMENTO_MENSAGEM_SEC" xml:space="preserve">
+    <value>Modificar Mensagem Secundária</value>
+  </data>
+  <data name="COMBO_OPERACOES_AGENDAMENTO_ROTEIRO" xml:space="preserve">
+    <value>Modificar Roteiro</value>
+  </data>
+  <data name="COMBO_OPERACOES_AGENDAMENTO_SENTIDO" xml:space="preserve">
+    <value>Modificar Sentido do Roteiro</value>
+  </data>
+  <data name="USER_CONTROL_AGENDAMENTO_TBOX_NOME" xml:space="preserve">
+    <value>Novo Agendamento</value>
+  </data>
+  <data name="AVISO_IMPORTACAO_LDX" xml:space="preserve">
+    <value>Somente os textos dos roteiros e os textos das mensagens serão importados.</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_AGENDAMENTO" xml:space="preserve">
+    <value>Agendamento</value>
+  </data>
+  <data name="USER_CONTROL_AGENDAMENTO_BT_ADD" xml:space="preserve">
+    <value>Adicionar</value>
+  </data>
+  <data name="USER_CONTROL_AGENDAMENTO_BT_APLICAR" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+  <data name="USER_CONTROL_AGENDAMENTO_BT_CANCEL" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="USER_CONTROL_AGENDAMENTO_BT_DROP" xml:space="preserve">
+    <value>Remover</value>
+  </data>
+  <data name="USER_CONTROL_AGENDAMENTO_CHECK_IDA" xml:space="preserve">
+    <value>Ida</value>
+  </data>
+  <data name="USER_CONTROL_AGENDAMENTO_CHECK_VOLTA" xml:space="preserve">
+    <value>Volta</value>
+  </data>
+  <data name="USER_CONTROL_AGENDAMENTO_GBOX_OP_ALTERNANCIA" xml:space="preserve">
+    <value>Alternância</value>
+  </data>
+  <data name="USER_CONTROL_AGENDAMENTO_GBOX_OP_HORASAIDA" xml:space="preserve">
+    <value>Hora de Saída</value>
+  </data>
+  <data name="USER_CONTROL_AGENDAMENTO_GBOX_OP_MENSAGEM" xml:space="preserve">
+    <value>Mensagem</value>
+  </data>
+  <data name="USER_CONTROL_AGENDAMENTO_GBOX_OP_MENSAGEM_SEC" xml:space="preserve">
+    <value>Mensagem Secundária</value>
+  </data>
+  <data name="USER_CONTROL_AGENDAMENTO_GBOX_OP_ROTEIRO" xml:space="preserve">
+    <value>Roteiro</value>
+  </data>
+  <data name="USER_CONTROL_AGENDAMENTO_GBOX_OP_SENTIDO" xml:space="preserve">
+    <value>Sentido Ida/Volta</value>
+  </data>
+  <data name="USER_CONTROL_AGENDAMENTO_LABEL_DATAHORA" xml:space="preserve">
+    <value>Data e Hora</value>
+  </data>
+  <data name="USER_CONTROL_AGENDAMENTO_LABEL_LISTA" xml:space="preserve">
+    <value>Lista de Agendamentos</value>
+  </data>
+  <data name="USER_CONTROL_AGENDAMENTO_LABEL_NOME" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="USER_CONTROL_AGENDAMENTO_LABEL_OPERACAO" xml:space="preserve">
+    <value>Operação</value>
+  </data>
+  <data name="USER_CONTROL_AGENDAMENTO_LV_AGENDAMENTOS_COLUNA1" xml:space="preserve">
+    <value>Data e Hora</value>
+  </data>
+  <data name="USER_CONTROL_AGENDAMENTO_LV_AGENDAMENTOS_COLUNA2" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="USER_CONTROL_AGENDAMENTO_LV_OPERACAO_COLUNA1" xml:space="preserve">
+    <value>Índice</value>
+  </data>
+  <data name="USER_CONTROL_AGENDAMENTO_LV_OPERACAO_COLUNA2" xml:space="preserve">
+    <value>Texto</value>
+  </data>
+  <data name="USER_CONTROL_AGENDAMENTO_LV_OPERACAO_COLUNA2_ROTEIRO" xml:space="preserve">
+    <value>Texto de Ida</value>
+  </data>
+  <data name="USER_CONTROL_AGENDAMENTO_LV_OPERACAO_COLUNA3" xml:space="preserve">
+    <value>Texto de Volta</value>
+  </data>
+  <data name="USER_CONTROL_AGENDAMENTO_MBOX_CONFIRMACAO" xml:space="preserve">
+    <value>Confirmar</value>
+  </data>
+  <data name="USER_CONTROL_AGENDAMENTO_MBOX_EXCLUIR" xml:space="preserve">
+    <value>Deseja excluir o agendamento?</value>
+  </data>
+  <data name="USER_CONTROL_AGENDAMENTO_MBOX_MESMA_OP_PAINEL" xml:space="preserve">
+    <value>Já existe um agendamento nesse painel com a mesma operação e data!</value>
+  </data>
+  <data name="ARQUIVO_MBOX_MUDAR_PAINEL_MOTORISTAS" xml:space="preserve">
+    <value>Você deseja aplicar as alterações do motorista?</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_MOTORISTA" xml:space="preserve">
+    <value>Motorista</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_MOTORISTA_BT_ADICIONAR" xml:space="preserve">
+    <value>Adicionar</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_MOTORISTA_BT_APLICAR" xml:space="preserve">
+    <value>Aplicar</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_MOTORISTA_BT_CANCELAR" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_MOTORISTA_BT_EDITAR_ID" xml:space="preserve">
+    <value>Editar ID</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_MOTORISTA_BT_EDITAR_NOME" xml:space="preserve">
+    <value>Editar Nome</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_MOTORISTA_BT_REMOVER" xml:space="preserve">
+    <value>Remover</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_MOTORISTA_GBOX_INFO" xml:space="preserve">
+    <value>Informações do Motorista</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_MOTORISTA_LV_MOTORISTAS_COLUNA_0" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_MOTORISTA_LV_MOTORISTAS_COLUNA_1" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_MOTORISTA_MBOX_CONFIRMACAO" xml:space="preserve">
+    <value>Confirmação</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_MOTORISTA_MBOX_EXCLUIR" xml:space="preserve">
+    <value>Deseja excluir o Motorista selecionado?</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_MOTORISTA_MBOX_MESMO_ID" xml:space="preserve">
+    <value>Já existe um Motorista com o mesmo ID!</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_MOTORISTA_NOVO_ID" xml:space="preserve">
+    <value>XXX.XXX.XXX</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_MOTORISTA_NOVO_NOME" xml:space="preserve">
+    <value>Novo Motorista</value>
+  </data>
+  <data name="TEXTO_100_ARQUIVO_LPK" xml:space="preserve">
+    <value>AJUSTAR BRILHO</value>
+  </data>
+  <data name="TEXTO_101_ARQUIVO_LPK" xml:space="preserve">
+    <value>SELEC. MOTORISTA</value>
+  </data>
+  <data name="TEXTO_FUNCOES_16" xml:space="preserve">
+    <value>MODO TESTE</value>
+  </data>
+  <data name="TEXTO_FUNCOES_17" xml:space="preserve">
+    <value>AJUSTE BRILHO</value>
+  </data>
+  <data name="TEXTO_FUNCOES_18" xml:space="preserve">
+    <value>SELECIONA MOTORISTA</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MOTORISTA_BTN_CANCELAR" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MOTORISTA_BTN_SALVAR" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MOTORISTA_GROUP_BOX_INFO" xml:space="preserve">
+    <value>Informações do Motorista</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MOTORISTA_LABEL_ID" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MOTORISTA_LABEL_NOME" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MOTORISTA_NIVEL_SUAVIZACAO" xml:space="preserve">
+    <value>Nível de Suavização</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MOTORISTA_TOOLSTRIP_ALIGN_BOTTOM" xml:space="preserve">
+    <value>Alinhar Abaixo</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MOTORISTA_TOOLSTRIP_ALIGN_CENTER" xml:space="preserve">
+    <value>Centralizar</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MOTORISTA_TOOLSTRIP_ALIGN_LEFT" xml:space="preserve">
+    <value>Alinhar a Esquerda</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MOTORISTA_TOOLSTRIP_ALIGN_MIDDLE" xml:space="preserve">
+    <value>Alinhar ao Centro</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MOTORISTA_TOOLSTRIP_ALIGN_RIGHT" xml:space="preserve">
+    <value>Alinhar a Direita</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MOTORISTA_TOOLSTRIP_ALIGN_UP" xml:space="preserve">
+    <value>Alinhar Acima</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MOTORISTA_TOOLSTRIP_ITALICO" xml:space="preserve">
+    <value>Itálico</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MOTORISTA_TOOLSTRIP_LABEL_APRESENTACAO" xml:space="preserve">
+    <value>Apresentação</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MOTORISTA_TOOLSTRIP_LABEL_FONTE" xml:space="preserve">
+    <value>Fonte</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MOTORISTA_TOOLSTRIP_LABEL_ROLAGEM" xml:space="preserve">
+    <value>Tempo de Rolagem</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MOTORISTA_TOOLSTRIP_LABEL_TAMANHO" xml:space="preserve">
+    <value>Tamanho</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MOTORISTA_TOOLSTRIP_MUDAR_FONTE" xml:space="preserve">
+    <value>Mudar fonte</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MOTORISTA_TOOLSTRIP_NEGRITO" xml:space="preserve">
+    <value>Negrito</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MOTORISTA_TOOLSTRIP_SUBLINHADO" xml:space="preserve">
+    <value>Sublinhado</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_ARQUIVO_BUTTON_OPCOES_1" xml:space="preserve">
+    <value>Mais Opções</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_ARQUIVO_BUTTON_OPCOES_2" xml:space="preserve">
+    <value>Menos Opções</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_ARQUIVO_DATAGRID_COLUNA_BRILHO_MAX" xml:space="preserve">
+    <value>Brilho Máximo</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_ARQUIVO_DATAGRID_COLUNA_BRILHO_MIN" xml:space="preserve">
+    <value>Brilho Mínimo</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_ARQUIVO_MBOX_BRILHO_MAIOR" xml:space="preserve">
+    <value>O brilho máximo deve ser maior ou igual ao brilho mínimo!</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_ARQUIVO_MBOX_BRILHO_MENOR" xml:space="preserve">
+    <value>O brilho mínimo deve ser menor ou igual ao brilho máximo!</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_ARQUIVO_MBOX_BRILHO_NUMERO" xml:space="preserve">
+    <value>Digite um valor entre 1 e 100!</value>
+  </data>
+  <data name="ARQUIVO_ALT_MSG_ID_MOTORISTA" xml:space="preserve">
+    <value>MSG+ID MOT</value>
+  </data>
+  <data name="ARQUIVO_ALT_MSG_ID_NOME_MOTORISTA" xml:space="preserve">
+    <value>MSG+ID+NOME MOT</value>
+  </data>
+  <data name="ARQUIVO_ALT_MSG_NOME_MOTORISTA" xml:space="preserve">
+    <value>MSG+NOME MOT</value>
+  </data>
+  <data name="ARQUIVO_ALT_TIPO_EXIBICAO_ID_MOTORISTA" xml:space="preserve">
+    <value>ID do Motorista</value>
+  </data>
+  <data name="ARQUIVO_ALT_TIPO_EXIBICAO_NOME_MOTORISTA" xml:space="preserve">
+    <value>Nome do Motorista</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_ARQUIVO_MBOX_LARGURA_INVALIDA" xml:space="preserve">
+    <value>O valor da largura deve ser um número inteiro entre 16 e 256!</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_TRANSMITIR_MBOX_SALVAR_SOBRESCREVER" xml:space="preserve">
+    <value>já existe. Deseja sobrescrever o arquivo?</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_TRANSMITIR_MBOX_TYPE_SALVAR_SOBRESCREVER" xml:space="preserve">
+    <value>Confirmar salvar como</value>
+  </data>
+  <data name="SOBRE_FORM_TEXT" xml:space="preserve">
+    <value>Sobre Pontos</value>
+  </data>
+  <data name="SOBRE_LISTVIEW_COLUNA_DESCRICAO" xml:space="preserve">
+    <value>Descrição</value>
+  </data>
+  <data name="SOBRE_LISTVIEW_COLUNA_TITULO" xml:space="preserve">
+    <value>Título</value>
+  </data>
+  <data name="SOBRE_LISTVIEW_LINHA_1" xml:space="preserve">
+    <value>Software:</value>
+  </data>
+  <data name="SOBRE_LISTVIEW_LINHA_2" xml:space="preserve">
+    <value>Versão:</value>
+  </data>
+  <data name="SOBRE_LISTVIEW_LINHA_3" xml:space="preserve">
+    <value>Licenciado para:</value>
+  </data>
+  <data name="SOBRE_RICHTEXT_DESENVOLVIMENTO" xml:space="preserve">
+    <value>• Desenvolvimento do Software •</value>
+  </data>
+  <data name="SOBRE_RICHTEXT_FIRMWARE" xml:space="preserve">
+    <value>• Desenvolvimento do Firmware •</value>
+  </data>
+  <data name="SOBRE_RICHTEXT_GERENCIA" xml:space="preserve">
+    <value>• Gerência do Projeto •</value>
+  </data>
+  <data name="USER_CONTROL_AGENDAMENTO_MBOX_MESMA_OP_TODOS_PAINEIS" xml:space="preserve">
+    <value>Já existe um agendamento com a mesma operação e data!</value>
+  </data>
+  <data name="ARQUIVO_EXISTE" xml:space="preserve">
+    <value>Arquivo já existe. Deseja sobrescrever o arquivo?</value>
+  </data>
+  <data name="ARQUIVO_NAO_SALVO" xml:space="preserve">
+    <value>Não consegui salvar as alterações!</value>
+  </data>
+  <data name="ARQUIVO_SALVO" xml:space="preserve">
+    <value>Arquivo Salvo!</value>
+  </data>
+  <data name="ROTEIRO_COPIA" xml:space="preserve">
+    <value>Cópia</value>
+  </data>
+  <data name="MENSAGEM_COPIA" xml:space="preserve">
+    <value>Cópia</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_MENSAGENS_MENU_COPIAR" xml:space="preserve">
+    <value>Copiar</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_MENSAGENS_MENU_EXCLUIR" xml:space="preserve">
+    <value>Remover</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_MENSAGENS_MENU_INCLUIR" xml:space="preserve">
+    <value>Incluir</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_ROTEIROS_MENU_COPIAR" xml:space="preserve">
+    <value>Copiar</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_ROTEIROS_MENU_EXCLUIR" xml:space="preserve">
+    <value>Remover</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_ROTEIROS_MENU_INCLUIR" xml:space="preserve">
+    <value>Incluir</value>
+  </data>
+  <data name="TEXTO_102_ARQUIVO_LPK" xml:space="preserve">
+    <value>PRÓXIMA PARADA</value>
+  </data>
+  <data name="TEXTO_103_ARQUIVO_LPK" xml:space="preserve">
+    <value>MENSAGEM APP</value>
+  </data>
+  <data name="ARQUIVO_BTN_APRESENTAR_CANCELAR" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="EDITAR_SIMULACAO_GBOX_MOTORISTA" xml:space="preserve">
+    <value>Motorista</value>
+  </data>
+  <data name="REGIOES_IDIOMAS_COMBO_MOEDA_EURO" xml:space="preserve">
+    <value>Euro</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_TRANSMITIR_MBOX_TAMANHO_ARQUIVO" xml:space="preserve">
+    <value>O nome do arquivo não pode ser maior que 8 caracteres!</value>
+  </data>
+  <data name="MUDAR_TARIFA_DE_LABEL" xml:space="preserve">
+    <value>De:</value>
+  </data>
+  <data name="MUDAR_TARIFA_MBOX_APLICAR_TARIFA_ESPECIFICA" xml:space="preserve">
+    <value>Deseja realmente alterar a tarifa para os roteiros?</value>
+  </data>
+  <data name="MUDAR_TARIFA_PARA_LABEL" xml:space="preserve">
+    <value>Para:</value>
+  </data>
+  <data name="MUDAR_TARIFA_TARIFA_ESPECIFICA_LABEL" xml:space="preserve">
+    <value>Alterar Tarifa dos Roteiros com um valor específico</value>
+  </data>
+  <data name="ARQUIVO_MBOX_SALVAR_AO_FECHAR" xml:space="preserve">
+    <value>Deseja salvar o arquivo?</value>
+  </data>
+  <data name="MDI_PRINCIPAL_MBOX_FECHAR" xml:space="preserve">
+    <value>Existem arquivos abertos, certifique-se que salvou os arquivos antes de fechar a aplicação. Deseja fechar a aplicação?</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_TOOLSTRIP_ITALICO_TEXT" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_TOOLSTRIP_NEGRITO_TEXT" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_TOOLSTRIP_SUBLINHADO_TEXT" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="USER_CONTROL_MENSAGENS_BTN_CONTINUAR" xml:space="preserve">
+    <value>Continuar</value>
+  </data>
+  <data name="USER_CONTROL_ROTEIROS_BTN_CONTINUAR" xml:space="preserve">
+    <value>Continuar</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MENSAGENS_TOOLSTRIP_ITALICO_TEXT" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MENSAGENS_TOOLSTRIP_NEGRITO_TEXT" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MENSAGENS_TOOLSTRIP_SUBLINHADO_TEXT" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MOTORISTA_TOOLSTRIP_ITALICO_TEXT" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MOTORISTA_TOOLSTRIP_NEGRITO_TEXT" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_MOTORISTA_TOOLSTRIP_SUBLINHADO_TEXT" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_ROTEIROS_TOOLSTRIP_ITALICO_TEXT" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_ROTEIROS_TOOLSTRIP_NEGRITO_TEXT" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_ROTEIROS_TOOLSTRIP_SUBLINHADO_TEXT" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="ARQUIVO_MBOX_MUDAR_TABCONTROL_MOTORISTA" xml:space="preserve">
+    <value>Deseja aplicar as alterações?</value>
+  </data>
+  <data name="ARQUIVO_MBOX_BTN_SALVAR_EDICAO_MENSAGEM" xml:space="preserve">
+    <value>Você está editando a mensagem e não aplicou as alterações. Deseja salvar as alterações?</value>
+  </data>
+  <data name="ARQUIVO_MBOX_BTN_SALVAR_EDICAO_ROTEIRO" xml:space="preserve">
+    <value>Você está editando o roteiro e não aplicou as alterações. Deseja salvar as alterações?</value>
+  </data>
+  <data name="ARQUIVO_MBOX_BTN_SALVAR_INCLUIR_MENSAGEM" xml:space="preserve">
+    <value>Você está adicionando uma nova mensagem e não aplicou ainda. Deseja salvar a nova mensagem?</value>
+  </data>
+  <data name="ARQUIVO_MBOX_BTN_SALVAR_INCLUIR_ROTEIRO" xml:space="preserve">
+    <value>Você está adicionando um novo roteiro e não aplicou ainda. Deseja salvar o novo roteiro?</value>
+  </data>
+  <data name="ARQUIVO_MBOX_BTN_SALVAR_EDICAO_MOTORISTA" xml:space="preserve">
+    <value>Você está editando o motorista e não aplicou as alterações. Deseja salvar as alterações?</value>
+  </data>
+  <data name="ARQUIVO_MBOX_BTN_SALVAR_INCLUIR_MOTORISTA" xml:space="preserve">
+    <value>Você está adicionando um novo motorista e não aplicou ainda. Deseja salvar o novo motorista?</value>
+  </data>
+  <data name="ARQUIVO_MBOX_BTN_SALVAR_EDICAO_MENSAGEM_ESP" xml:space="preserve">
+    <value>Você está editando a mensagem especial e não aplicou as alterações. Deseja salvar as alterações?</value>
+  </data>
+  <data name="ARQUIVO_MBOX_BTN_SALVAR_EDICAO_SIMULACAO" xml:space="preserve">
+    <value>Você está editando as informações e não aplicou as alterações. Deseja salvar as alterações?</value>
+  </data>
+  <data name="USER_CONTROL_MENSAGENS_MBOX_LABEL_VAZIO" xml:space="preserve">
+    <value>O Texto da Mensagem não pode ser vazio!</value>
+  </data>
+  <data name="USER_CONTROL_ROTEIROS_MBOX_LABEL_VAZIO" xml:space="preserve">
+    <value>O Texto do Roteiro não pode ser vazio!</value>
+  </data>
+  <data name="USER_CONTROL_ROTEIROS_MBOX_NUMERO_VAZIO" xml:space="preserve">
+    <value>O Número do Roteiro não pode ser vazio!</value>
+  </data>
+  <data name="MAIN_MENU_FILE_PRINT_MBOX_ABA" xml:space="preserve">
+    <value>Selecione a guia de roteiro, mensagem ou motorista para impressão!</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_MOTORISTA_MBOX_ID_VAZIO" xml:space="preserve">
+    <value>O ID do motorista não pode ser vazio!</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_MOTORISTA_MBOX_NOME_VAZIO" xml:space="preserve">
+    <value>O Nome do motorista não pode ser vazio!</value>
+  </data>
+  <data name="TEXTO_ENABLE_LOCK" xml:space="preserve">
+    <value>Travar controlador com os painéis</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_STOP" xml:space="preserve">
+    <value>PARADA</value>
+  </data>
+  <data name="MENSAGENS_ESPECIAIS_GBOX_STOP" xml:space="preserve">
+    <value> Mensagem de Parada </value>
+  </data>
+  <data name="ARQUIVO_TEXTO_ALERTA_LOCK" xml:space="preserve">
+    <value>Esta função bloqueia a comunicação entre o controlador e os painéis. A comunicação entre o controlador e os painéis só será possível com o mesmo conjunto de equipamentos. Tem certeza que deseja habilitar?</value>
+  </data>
+  <data name="ARQUIVO_TITULO_ALERTA_LOCK" xml:space="preserve">
+    <value>Atenção!</value>
+  </data>
+  <data name="SPLASH_MENSAGEM_ABRIR_ARQUIVO" xml:space="preserve">
+    <value>abrindo arquivo</value>
+  </data>
+  <data name="TEXTO_104_ARQUIVO_LPK" xml:space="preserve">
+    <value>E014 PAINEIS</value>
+  </data>
+  <data name="TEXTO_105_ARQUIVO_LPK" xml:space="preserve">
+    <value>TRAVADOS</value>
+  </data>
+  <data name="TEXTO_106_ARQUIVO_LPK" xml:space="preserve">
+    <value>DESTRAV. PAINEIS</value>
+  </data>
+  <data name="TEXTO_107_ARQUIVO_LPK" xml:space="preserve">
+    <value>ID DESTRAVAMENTO</value>
+  </data>
+  <data name="EDITOR_FONTES_BT_ITALICO_TEXT" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="EDITOR_FONTES_BT_NEGRITO_TEXT" xml:space="preserve">
+    <value>N</value>
+  </data>
+  <data name="EDITOR_FONTES_BT_SUBLINHADO_TEXT" xml:space="preserve">
+    <value>S</value>
+  </data>
+  <data name="REGIOES_IDIOMAS_TAB_BTN_RESTAURAR" xml:space="preserve">
+    <value>Restaurar Padrão</value>
+  </data>
+  <data name="REGIOES_IDIOMAS_TAB_BTN_RESTAURAR_MBOX" xml:space="preserve">
+    <value>As configurações de idioma foram restauradas com sucesso!</value>
+  </data>
+  <data name="REGIOES_IDIOMAS_TAB_BTN_RESTAURAR_MBOX_CONFIRM" xml:space="preserve">
+    <value>As configurações de idioma modificadas serão substituidas pelas configurações de idioma padrão do sistema. Deseja restaurar?</value>
+  </data>
+  <data name="REGIOES_IDIOMAS_TAB_BTN_RESTAURAR_MBOX_EXCEPTION" xml:space="preserve">
+    <value>As configurações de idioma não puderam ser restauradas!</value>
+  </data>
+  <data name="REGIOES_IDIOMAS_TAB_BTN_RESTAURAR_TOOLTIP" xml:space="preserve">
+    <value>As configurações de idioma modificadas serão substituidas pelas configurações de idioma padrão do sistema.</value>
+  </data>
+  <data name="ARQUIVO_MBOX_EXCLUIR_PAINEL_ULTIMO" xml:space="preserve">
+    <value>Deve haver ao menos um painel cadastrado!</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_MENSAGENS_MBOX_EXCLUIR_ULTIMO" xml:space="preserve">
+    <value>Deve haver ao menos uma mensagem cadastrada!</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_ROTEIROS_MBOX_EXCLUIR_ULTIMO" xml:space="preserve">
+    <value>Deve haver ao menos um roteiro cadastrado!</value>
+  </data>
+  <data name="USER_CONTROL_MENSAGENS_MBOX_EXCLUIR_TEXTO_ULTIMO" xml:space="preserve">
+    <value>Deve haver ao menos um texto cadastrado!</value>
+  </data>
+  <data name="SPLASH_MENSAGEM_ARQUIVOS_RECENTES" xml:space="preserve">
+    <value>carregando arquivos recentes</value>
+  </data>
+  <data name="MAIN_MENU_TOOLS_FARE_MBOX_EDITANDO_ROTEIRO" xml:space="preserve">
+    <value>Não é possível editar todas as tarifas enquanto estiver editando um roteiro!</value>
+  </data>
+  <data name="MAIN_MENU_TOOLS_FARE_MBOX_QTD_ROTEIROS" xml:space="preserve">
+    <value>Roteiros com tarifas alteradas:</value>
+  </data>
+  <data name="MAIN_MENU_TOOLS_FARE_MBOX_TODAS_TARIFAS_ALTERADAS" xml:space="preserve">
+    <value>Todas as tarifas dos roteiros foram alteradas.</value>
+  </data>
+  <data name="MAIN_MENU_TOOLS_REGION_MBOX" xml:space="preserve">
+    <value>Feche todas as janelas antes de alterar as regiões!</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_ARQUIVO_DATAGRID_COLUNA_MULTI_LINHAS" xml:space="preserve">
+    <value>Multilinhas</value>
+  </data>
+  <data name="ARQUIVO_PAINEL_MBOX_PARA_MULTI_LINHAS" xml:space="preserve">
+    <value>Você está mudando a quantidade de linhas do painel multilinhas, todos os dados do painel serão alterados. Deseja alterar?</value>
+  </data>
+  <data name="ARQUIVO_PAINEL_MULTI_LINHAS" xml:space="preserve">
+    <value>Multilinhas</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_MENSAGENS_MBOX_INCLUIR_MULTILINHAS" xml:space="preserve">
+    <value>Não é possível incluir mensagens pois o painel principal está configurado como multilinhas!</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_MOTORISTA_MBOX_INCLUIR_MULTILINHAS" xml:space="preserve">
+    <value>Não é possível incluir mensagens pois o painel principal está configurado como multilinhas!</value>
+  </data>
+  <data name="USER_CONTROL_MENSAGENS_MBOX_INCLUIR_MULTILINHAS" xml:space="preserve">
+    <value>Não é possível incluir mensagens pois o painel principal está configurado como multilinhas!</value>
+  </data>
+  <data name="USER_CONTROL_TEXTO_EDITOR_ROTEIROS_TOOLSTRIP_LABEL_MULTILINHA" xml:space="preserve">
+    <value>Multilinhas</value>
+  </data>
+  <data name="EDITAR_SIMULACAO_LABEL_TEXTOS_ROTEIRO_DIFERENTES" xml:space="preserve">
+    <value>Textos de ida/retorno diferentes</value>
+  </data>
+  <data name="EDITAR_SIMULACAO_LABEL_TEXTOS_ROTEIRO_IGUAIS" xml:space="preserve">
+    <value>Textos de ida/retorno iguais</value>
+  </data>
+  <data name="TEXTO_ERRO_INSERCAO_TAG" xml:space="preserve">
+    <value>Não é possível inserir uma tag dentro de outra tag.</value>
+  </data>
+  <data name="ATIVACAO_BUTTON_APLICAR" xml:space="preserve">
+    <value>Validar</value>
+  </data>
+  <data name="ATIVACAO_BUTTON_CANCELAR" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="ATIVACAO_CAPTION" xml:space="preserve">
+    <value>Ativar PontosX2</value>
+  </data>
+  <data name="ATIVACAO_CHAVE" xml:space="preserve">
+    <value>Chave:</value>
+  </data>
+  <data name="ATIVACAO_EMAIL" xml:space="preserve">
+    <value>Email:</value>
+  </data>
+  <data name="ATIVACAO_EMPRESA" xml:space="preserve">
+    <value>Empresa:</value>
+  </data>
+  <data name="ATIVACAO_VERSAO" xml:space="preserve">
+    <value>Versão:</value>
+  </data>
+  <data name="SPLASH_MENSAGEM_ARQUIVO_ATIVACAO" xml:space="preserve">
+    <value>validando a chave de ativação</value>
+  </data>
+  <data name="EDITOR_FONTES_ABRIR_BT_ABRIR" xml:space="preserve">
+    <value>Abrir</value>
+  </data>
+  <data name="EDITOR_FONTES_ABRIR_BT_CANCELAR" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="EDITOR_FONTES_ABRIR_SEM_FONTES" xml:space="preserve">
+    <value>Não existem fontes instaladas no Pontos!</value>
+  </data>
+  <data name="MAIN_MENU_FILE_IMPORT_FONT" xml:space="preserve">
+    <value>Importar Fonte</value>
+  </data>
+  <data name="MAIN_MENU_FILE_IMPORT_FONT_COPIADA" xml:space="preserve">
+    <value>Fonte importada com sucesso!</value>
+  </data>
+  <data name="MAIN_MENU_FILE_IMPORT_FONT_FILTRO" xml:space="preserve">
+    <value>Fonte(*.FNT)|*.FNT</value>
+  </data>
+  <data name="MAIN_MENU_FILE_IMPORT_FONT_FORMATO_INVALIDO" xml:space="preserve">
+    <value>Arquivo de fonte em formato inválido!</value>
+  </data>
+  <data name="MAIN_MENU_FILE_IMPORT_FONT_SOBRESCREVER" xml:space="preserve">
+    <value>Este arquivo de fonte já existe, deseja sobrescrevê-lo?</value>
+  </data>
+  <data name="MAIN_MENU_FILE_IMPORT_IMAGE_COPIADA" xml:space="preserve">
+    <value>Imagem importada com sucesso!</value>
+  </data>
+  <data name="MAIN_MENU_FILE_IMPORT_IMAGE_SOBRESCREVER" xml:space="preserve">
+    <value>Este arquivo de imagem já existe, deseja sobrescrevê-lo?</value>
+  </data>
+  <data name="MAIN_MENU_TOOLS_IMPORT_FONT_MBOX" xml:space="preserve">
+    <value>Feche todas as janelas antes de importar fonte!</value>
+  </data>
+  <data name="MAIN_MENU_TOOLS_IMPORT_IMAGE_MBOX" xml:space="preserve">
+    <value>Feche todas as janelas antes de importar imagem!</value>
+  </data>
+  <data name="ATIVACAO_BUTTON_ENVIAR" xml:space="preserve">
+    <value>Enviar</value>
+  </data>
+  <data name="ATIVACAO_CONTATO" xml:space="preserve">
+    <value>Contato:</value>
+  </data>
+  <data name="ATIVACAO_NAO" xml:space="preserve">
+    <value>Não</value>
+  </data>
+  <data name="ATIVACAO_SIM" xml:space="preserve">
+    <value>Sim</value>
+  </data>
+  <data name="ATIVACAO_TELEFONE" xml:space="preserve">
+    <value>Telefone:</value>
+  </data>
+  <data name="ATIVACAO_TEMCHAVEATIVACAO" xml:space="preserve">
+    <value>Você já possui uma chave de ativação?</value>
+  </data>
+  <data name="ATIVACAO_TEXTO_ATIVACAO" xml:space="preserve">
+    <value>Digite a empresa e a chave de ativação do PontosX2.</value>
+  </data>
+  <data name="ATIVACAO_TEXTO_CADASTRO" xml:space="preserve">
+    <value>Complete o cadastro, a FRT fornecerá a chave de ativação do PontosX2.</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_TRANSMITIR_CHECK_PERIFERICOS" xml:space="preserve">
+    <value>Existem periféricos na rede</value>
+  </data>
+  <data name="FORM_PERIFERICO_NA_REDE_BT_APLICAR" xml:space="preserve">
+    <value>Aplicar</value>
+  </data>
+  <data name="FORM_PERIFERICO_NA_REDE_BT_CANCELAR" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="FORM_PERIFERICO_NA_REDE_CHECK_APP" xml:space="preserve">
+    <value>APP</value>
+  </data>
+  <data name="FORM_PERIFERICO_NA_REDE_CHECK_CATRACA" xml:space="preserve">
+    <value>Catraca</value>
+  </data>
+  <data name="FORM_PERIFERICO_NA_REDE_CHECK_TEMPERATURA" xml:space="preserve">
+    <value>Sensor de Temperatura</value>
+  </data>
+  <data name="FORM_PERIFERICO_NA_REDE_CHECK_VELOCIDADE" xml:space="preserve">
+    <value>Sensor de Velocidade</value>
+  </data>
+  <data name="FORM_PERIFERICO_NA_REDE_GBOX" xml:space="preserve">
+    <value>Selecione o periférico na rede</value>
+  </data>
+  <data name="FORM_PERIFERICO_NA_REDE_NOME" xml:space="preserve">
+    <value>Periféricos</value>
+  </data>
+  <data name="ATIVACAO_BUTTON_CONTINUAR" xml:space="preserve">
+    <value>Continuar</value>
+  </data>
+  <data name="ATIVACAO_BUTTON_ENVIAR_CATCH" xml:space="preserve">
+    <value>Ocorreu um erro ao enviar os dados. Entre em contato com a FRT, o PontosX2 poderá ser utilizado por</value>
+  </data>
+  <data name="ATIVACAO_BUTTON_ENVIAR_SUCESSO" xml:space="preserve">
+    <value>Os dados foram enviados e logo a FRT entrará em contato. Enquanto aguarda, o PontosX2 poderá ser usado por</value>
+  </data>
+  <data name="ATIVACAO_CADASTRO_VALIDACAO_CHAVE" xml:space="preserve">
+    <value>A chave deve ser preenchida!</value>
+  </data>
+  <data name="ATIVACAO_CADASTRO_VALIDACAO_CONTATO" xml:space="preserve">
+    <value>O contato deve ser preenchido!</value>
+  </data>
+  <data name="ATIVACAO_CADASTRO_VALIDACAO_EMAIL" xml:space="preserve">
+    <value>O email está em formato inválido!</value>
+  </data>
+  <data name="ATIVACAO_CADASTRO_VALIDACAO_EMAIL_VAZIO" xml:space="preserve">
+    <value>O email deve ser preenchido!</value>
+  </data>
+  <data name="ATIVACAO_CADASTRO_VALIDACAO_EMPRESA" xml:space="preserve">
+    <value>A empresa deve ser preenchida!</value>
+  </data>
+  <data name="ATIVACAO_CADASTRO_VALIDACAO_TELEFONE" xml:space="preserve">
+    <value>O telefone deve ser preenchido!</value>
+  </data>
+  <data name="ATIVACAO_CHAVE_INVALIDA" xml:space="preserve">
+    <value>A chave informada é inválida!</value>
+  </data>
+  <data name="ATIVACAO_MENSAGEM_DIA" xml:space="preserve">
+    <value>dia.</value>
+  </data>
+  <data name="ATIVACAO_MENSAGEM_DIAS" xml:space="preserve">
+    <value>dias.</value>
+  </data>
+  <data name="ATIVACAO_PERIODO_AVALIACAO" xml:space="preserve">
+    <value>O período de avaliação expira em</value>
+  </data>
+  <data name="ATIVACAO_PERIODO_AVALIACAO_EXPIRADO" xml:space="preserve">
+    <value>O período de avaliação expirou.Entre em contato com a FRT.</value>
+  </data>
+  <data name="FORM_PERIFERICO_MBOX_PAINEL" xml:space="preserve">
+    <value>Selecione ao menos um painel!</value>
+  </data>
+  <data name="MAIN_MENU_SEND_NINBUS" xml:space="preserve">
+    <value>Enviar Arquivo pelo Ninbus</value>
+  </data>
+  <data name="MDI_PRINCIPAL_MBOX_NINBUS_DESINSTALADO" xml:space="preserve">
+    <value>O Ninbus foi desinstalado!</value>
+  </data>
+  <data name="MDI_PRINCIPAL_MBOX_NINBUS_EM_EXECUCAO" xml:space="preserve">
+    <value>O Ninbus já está em execução!</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_TRANSMITIR_BTN_ENVIAR_CANCELAR" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="REGIOES_IDIOMAS_TAB_IDIOMAS_SALVAR" xml:space="preserve">
+    <value>Idioma salvo com sucesso!</value>
+  </data>
+  <data name="REGIOES_IDIOMAS_TAB_IDIOMAS_SALVAR_EXECAO" xml:space="preserve">
+    <value>Ocorreu um erro ao salvar o idioma!</value>
+  </data>
+  <data name="REGIOES_IDIOMAS_TAB_REGIOES_MBOX_DECIMAL" xml:space="preserve">
+    <value>Selecione o separador decimal!</value>
+  </data>
+  <data name="REGIOES_IDIOMAS_TAB_REGIOES_MBOX_HORA" xml:space="preserve">
+    <value>Selecione o formato da hora!</value>
+  </data>
+  <data name="REGIOES_IDIOMAS_TAB_REGIOES_MBOX_MOEDA" xml:space="preserve">
+    <value>Selecione a moeda!</value>
+  </data>
+  <data name="REGIOES_IDIOMAS_TAB_REGIOES_MBOX_NOME" xml:space="preserve">
+    <value>Preencha o nome da região!</value>
+  </data>
+  <data name="REGIOES_IDIOMAS_TAB_REGIOES_MBOX_TEMPERATURA" xml:space="preserve">
+    <value>Selecione o formato da temperatura!</value>
+  </data>
+  <data name="REGIOES_IDIOMAS_TAB_REGIOES_MBOX_VELOCIDADE" xml:space="preserve">
+    <value>Selecione o padrão de velocidade!</value>
+  </data>
+  <data name="REGIOES_IDIOMAS_TAB_REGIOES_SALVAR" xml:space="preserve">
+    <value>Região salva com sucesso!</value>
+  </data>
+  <data name="REGIOES_IDIOMAS_TAB_REGIOES_SALVAR_EXECAO" xml:space="preserve">
+    <value>Ocorreu um erro ao salvar a região!</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_TRANSMITIR_GERANDO_NFX" xml:space="preserve">
+    <value>O arquivo .NFX está sendo gerado!</value>
+  </data>
+  <data name="FORM_PERIFERICO_MBOX_PAINEL_MULTILINHAS" xml:space="preserve">
+    <value>O painel multilinhas não pode ser selecionado!</value>
+  </data>
+  <data name="COMBO_MODELO_N_TEXTO_TRIPLO" xml:space="preserve">
+    <value>Número + Texto Triplo</value>
+  </data>
+  <data name="COMBO_MODELO_TEXTO_TRIPLO" xml:space="preserve">
+    <value>Texto Triplo</value>
+  </data>
+  <data name="COMBO_MODELO_TEXTO_TRIPLO_N" xml:space="preserve">
+    <value>Texto Triplo + Número</value>
+  </data>
+  <data name="ARQUIVO_VIDEOBITMAP_TRACKBAR_ALTURA_MEIO" xml:space="preserve">
+    <value>Altura do Meio:</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_ARQUIVO_BUTTON_COPIAR" xml:space="preserve">
+    <value>Copiar</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_ARQUIVO_MENU_COPIAR" xml:space="preserve">
+    <value>Copiar</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_ARQUIVO_MENU_EXCLUIR" xml:space="preserve">
+    <value>Remover</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_ARQUIVO_MENU_INCLUIR" xml:space="preserve">
+    <value>Incluir</value>
+  </data>
+  <data name="MAIN_MENU_FILE_SAVE_MBOX_CARACTERES_ESPECIAS" xml:space="preserve">
+    <value>O nome do arquivo não pode conter caracteres especiais!</value>
+  </data>
+  <data name="MAIN_MENU_FILE_SAVE_MBOX_ERRO" xml:space="preserve">
+    <value>Ocorreu um erro, o arquivo não foi salvo!</value>
+  </data>
+  <data name="MAIN_MENU_FILE_SAVE_MBOX_TAMANHO_NOME" xml:space="preserve">
+    <value>O nome do arquivo não pode ter mais de 100 caracteres!</value>
+  </data>
+  <data name="MAIN_MENU_RECENT_FILE_MBOX" xml:space="preserve">
+    <value>O arquivo não foi encontrado!</value>
+  </data>
+  <data name="MAIN_MENU_HELP_EXTRAIR_LDX2" xml:space="preserve">
+    <value>Extrair LDX2 de NFX</value>
+  </data>
+  <data name="MAIN_MENU_HELP_EXTRAIR_LDX2_DIRETORIO" xml:space="preserve">
+    <value>Escolha o diretório de destino onde será salvo o arquivo LDX2.</value>
+  </data>
+  <data name="MAIN_MENU_HELP_EXTRAIR_LDX2_FILTRO" xml:space="preserve">
+    <value>Arquivo NFX|*.nfx</value>
+  </data>
+  <data name="MAIN_MENU_HELP_EXTRAIR_LDX2_MBOX_ERRO" xml:space="preserve">
+    <value>Ocorreu um erro ao extrair o arquivo LDX2!</value>
+  </data>
+  <data name="MAIN_MENU_HELP_EXTRAIR_LDX2_MBOX_MSG" xml:space="preserve">
+    <value>Clique em Ok para escolher o arquivo NFX que contém o LDX2.</value>
+  </data>
+  <data name="MAIN_MENU_HELP_EXTRAIR_LDX2_MBOX_SUCESSO" xml:space="preserve">
+    <value>Arquivo LDX2 extraido com sucesso!</value>
+  </data>
+  <data name="MAIN_MENU_HELP_EXTRAIR_LDX2_MBOX_TITLE" xml:space="preserve">
+    <value>Extrair arquivo LDX2 de NFX</value>
+  </data>
+  <data name="MAIN_MENU_HELP_EXTRAIR_LDX2_SOBRESCREVER" xml:space="preserve">
+    <value>Deseja sobrescrever o arquivo LDX2 que já existe na pasta?</value>
+  </data>
+  <data name="MAIN_MENU_HELP_EXTRAIR_NFX" xml:space="preserve">
+    <value>Extrair NFX</value>
+  </data>
+  <data name="MAIN_MENU_HELP_EXTRAIR_NFX_DIRETORIO" xml:space="preserve">
+    <value>Escolha o diretório de destino onde será extraido o arquivo NFX.</value>
+  </data>
+  <data name="MAIN_MENU_HELP_EXTRAIR_NFX_FILTRO" xml:space="preserve">
+    <value>Arquivo NFX|*.nfx</value>
+  </data>
+  <data name="MAIN_MENU_HELP_EXTRAIR_NFX_MBOX_ERRO" xml:space="preserve">
+    <value>Ocorreu um erro ao extrair o arquivo NFX!</value>
+  </data>
+  <data name="MAIN_MENU_HELP_EXTRAIR_NFX_MBOX_MSG" xml:space="preserve">
+    <value>Clique Ok para escolher o arquivo NFX que deseja extrair.</value>
+  </data>
+  <data name="MAIN_MENU_HELP_EXTRAIR_NFX_MBOX_SUCESSO" xml:space="preserve">
+    <value>Arquivo LDX2 extraido com sucesso!</value>
+  </data>
+  <data name="MAIN_MENU_HELP_EXTRAIR_NFX_MBOX_TITLE" xml:space="preserve">
+    <value>Extrair arquivo NFX</value>
+  </data>
+  <data name="MAIN_MENU_HELP_GERAR_CHAVE" xml:space="preserve">
+    <value>Gerador de Chaves</value>
+  </data>
+  <data name="MAIN_MENU_MBOX_OPEN_ERROR" xml:space="preserve">
+    <value>Ocorreu um erro ao abrir o arquivo LDX2!</value>
+  </data>
+  <data name="MAIN_MENU_MBOX_OPEN_ERROR_TITLE" xml:space="preserve">
+    <value>Erro</value>
+  </data>
+  <data name="FORM_REALEASE_NOTES_NOME" xml:space="preserve">
+    <value>Anotações de Versões</value>
+  </data>
+  <data name="MAIN_MENU_HELP_REALEASE_NOTES" xml:space="preserve">
+    <value>&amp;Anotações de Versões</value>
+  </data>
+  <data name="FIND_BUTTONFIND_MBOX_MENSAGEM" xml:space="preserve">
+    <value>Mensagem não localizada!</value>
+  </data>
+  <data name="FIND_BUTTONFIND_MBOX_ROTEIRO" xml:space="preserve">
+    <value>Roteiro não localizada!</value>
+  </data>
+  <data name="FIND_CAPTION_MENSAGEM" xml:space="preserve">
+    <value>Localizar Mensagem</value>
+  </data>
+  <data name="FIND_TEXTS" xml:space="preserve">
+    <value>Localizar nos textos</value>
+  </data>
+  <data name="MAIN_MENU_FILE_FIND_MBOX_ABA" xml:space="preserve">
+    <value>Selecione a guia de roteiro ou mensagem para localizar!</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_TRANSMITIR_MBOX_VERIFICAR_FUNCOES1" xml:space="preserve">
+    <value>Algumas funções foram bloqueadas. É necessário informar a senha para desbloqueio!</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_TRANSMITIR_MBOX_VERIFICAR_FUNCOES2" xml:space="preserve">
+    <value>A senha de desbloqueio deve possuir</value>
+  </data>
+  <data name="ARQUIVO_TABPAGE_TRANSMITIR_MBOX_VERIFICAR_FUNCOES3" xml:space="preserve">
+    <value>dígitos!</value>
+  </data>
+  <data name="MAIN_MENU_FILE_PRINT_MBOX_TEXTOS_MENSAGEM" xml:space="preserve">
+    <value>Deseja imprimir os textos das mensagens?</value>
+  </data>
+  <data name="MAIN_MENU_FILE_PRINT_MBOX_TEXTOS_ROTEIRO" xml:space="preserve">
+    <value>Deseja imprimir os textos dos roteiros?</value>
+  </data>
+  <data name="MAIN_MENU_FILE_PRINT_MBOX_TEXTOS_TITULO_MENSAGEM" xml:space="preserve">
+    <value>Imprimir Mensagens</value>
+  </data>
+  <data name="MAIN_MENU_FILE_PRINT_MBOX_TEXTOS_TITULO_ROTEIRO" xml:space="preserve">
+    <value>Imprimir Roteiros</value>
+  </data>
+  <data name="TEXTO_ALTERNANCIA_MBOX_EXCLUIR_AGENDAMENTO1" xml:space="preserve">
+    <value>Essa alternância possui</value>
+  </data>
+  <data name="TEXTO_ALTERNANCIA_MBOX_EXCLUIR_AGENDAMENTO2_P" xml:space="preserve">
+    <value>agendamentos associados! Se aplicar a alternância, os agendamentos associados serão removidos. Deseja aplicar?</value>
+  </data>
+  <data name="TEXTO_ALTERNANCIA_MBOX_EXCLUIR_AGENDAMENTO2_S" xml:space="preserve">
+    <value>agendamento associado! Se aplicar a alternância, o agendamento associado será removido. Deseja aplicar?</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_MENSAGENS_MBOX_EXCLUIR_AGENDAMENTO1" xml:space="preserve">
+    <value>Essa mensagem possui</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_MENSAGENS_MBOX_EXCLUIR_AGENDAMENTO2_P" xml:space="preserve">
+    <value>agendamentos associados! Se remover a mensagem, os agendamentos também serão removidos. Deseja remover a mensagem?</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_MENSAGENS_MBOX_EXCLUIR_AGENDAMENTO2_S" xml:space="preserve">
+    <value>agendamento associado! Se remover a mensagem, o agendamento também será removido. Deseja remover a mensagem?</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_ROTEIROS_MBOX_EXCLUIR_AGENDAMENTO1" xml:space="preserve">
+    <value>Esse roteiro possui</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_ROTEIROS_MBOX_EXCLUIR_AGENDAMENTO2_P" xml:space="preserve">
+    <value>agendamentos associados! Se remover o roteiro, os agendamentos também serão removidos. Deseja remover o roteiro?</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_ROTEIROS_MBOX_EXCLUIR_AGENDAMENTO2_S" xml:space="preserve">
+    <value>agendamento associado! Se remover o roteiro, o agendamento também será removido. Deseja remover o roteiro?</value>
+  </data>
+  <data name="EDITOR_FONTES_BT_COPY" xml:space="preserve">
+    <value>Copiar</value>
+  </data>
+  <data name="EDITOR_FONTES_BT_PASTE" xml:space="preserve">
+    <value>Colar</value>
+  </data>
+  <data name="EDITOR_FONTES_MBOX_COPY_1" xml:space="preserve">
+    <value>Deseja copiar as propriedades do caractere</value>
+  </data>
+  <data name="EDITOR_FONTES_MBOX_COPY_2" xml:space="preserve">
+    <value>da área de transferencia para o caractere</value>
+  </data>
+  <data name="EDITOR_FONTES_MBOX_SELECIONAR_CARACTERE" xml:space="preserve">
+    <value>Selecione o caractere que deseja copiar!</value>
+  </data>
+  <data name="ARQUIVO_MBOX_REGIAO_NAO_ENCONTRADA1" xml:space="preserve">
+    <value>A região</value>
+  </data>
+  <data name="ARQUIVO_MBOX_REGIAO_NAO_ENCONTRADA2" xml:space="preserve">
+    <value>não foi encontrada, as mensagens especias serão alteradas!</value>
+  </data>
+  <data name="SPLASH_MENSAGEM_APP" xml:space="preserve">
+    <value>verificando instalação do APP</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_ROTEIRO_MBOX_APP_DESINSTALADO" xml:space="preserve">
+    <value>O APP foi desinstalado!</value>
+  </data>
+  <data name="USER_CONTROL_LISTAR_ROTEIRO_MBOX_APP_EM_EXECUCAO" xml:space="preserve">
+    <value>O APP já está em execução, uma nova instância será aberta. Deseja fechar a anterior?</value>
+  </data>
+  <data name="ATIVACAO_CADASTRO_VALIDACAO_DDD" xml:space="preserve">
+    <value>O DDD deve ser preenchido!</value>
+  </data>
+  <data name="TEXTO_108_ARQUIVO_LPK" xml:space="preserve">
+    <value>PRESSIONE OK</value>
+  </data>
+  <data name="TEXTO_HABILITA_MODO_LD6" xml:space="preserve">
+    <value>Apresentar no controlador os textos de ida e os textos de volta.</value>
+  </data>
+  <data name="FILTRO_FIRMWARES" xml:space="preserve">
+    <value>Arquivos Firmwares (*.FIR)|*.fir</value>
+  </data>
+  <data name="TEXTO_109_ARQUIVO_LPK" xml:space="preserve">
+    <value>APP MODO DEMO</value>
+  </data>
+  <data name="UPDATE_FIRMWARE_BUTTON_APLICAR" xml:space="preserve">
+    <value>Aplicar</value>
+  </data>
+  <data name="UPDATE_FIRMWARE_BUTTON_CANCELAR" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="UPDATE_FIRMWARE_FORM_TITLE" xml:space="preserve">
+    <value>Atualizar Firmware</value>
+  </data>
+  <data name="UPDATE_FIRMWARE_PRODUCT_ERROR" xml:space="preserve">
+    <value>O firmware escolhido não é compatível com o produto. Por favor escolha um firmware compatível. (</value>
+  </data>
+  <data name="UPDATE_FIRMWARE_VERSION_ERROR" xml:space="preserve">
+    <value>A versão do firmware escolhido é anterior a versão do produto. Por favor escolha uma versão mais recente. (</value>
+  </data>
+  <data name="TEXTO_110_ARQUIVO_LPK" xml:space="preserve">
+    <value>DESEJA ATUALIZAR</value>
+  </data>
+  <data name="TEXTO_111_ARQUIVO_LPK" xml:space="preserve">
+    <value>FIRMWARE?</value>
+  </data>
+  <data name="UPDATE_FIRMWARE_HEADER_ARQUIVO" xml:space="preserve">
+    <value>Versão do arquivo</value>
+  </data>
+  <data name="UPDATE_FIRMWARE_HEADER_DIRETORIO" xml:space="preserve">
+    <value>Diretório do arquivo</value>
+  </data>
+  <data name="UPDATE_FIRMWARE_HEADER_LOCAL" xml:space="preserve">
+    <value>Versão</value>
+  </data>
+  <data name="UPDATE_FIRMWARE_HEADER_PRODUTO" xml:space="preserve">
+    <value>Produto</value>
+  </data>
+  <data name="UPDATE_FIRMWARE_UPDATE_ERROR" xml:space="preserve">
+    <value>Arquivos não foram atualizados. Verificar se os arquivos não estão sendo usados por outras aplicações.</value>
+  </data>
+  <data name="UPDATE_FIRMWARE_UPDATE_SUCCESS" xml:space="preserve">
+    <value>Arquivos atualizados com sucesso.</value>
+  </data>
+  <data name="UPDATE_FIRMWARE_BUTTON_EXPORTAR" xml:space="preserve">
+    <value>Exportar</value>
+  </data>
+  <data name="ATIVACAO_BUTTON_ENVIAR_CATCH_EMPRESA" xml:space="preserve">
+    <value>Entre em contato com a FRT, o PontosX2 poderá ser utilizado por</value>
+  </data>
+  <data name="EDITAR_SIMULACAO_COMBOBOX_BAUDRATE_ITEM1" xml:space="preserve">
+    <value>Ninbus</value>
+  </data>
+  <data name="EDITAR_SIMULACAO_COMBOBOX_BAUDRATE_ITEM2" xml:space="preserve">
+    <value>Validador</value>
+  </data>
+  <data name="EDITAR_SIMULACAO_GBOX_BAUDRATE" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EDITAR_SIMULACAO_GBOX_TIMEOUT_SEM_COMUNICACAO" xml:space="preserve">
+    <value>Quando perder comunicação com o controlador</value>
+  </data>
+  <data name="EDITAR_SIMULACAO_LABEL_TIMEOUT_SEM_COMUNICACAO" xml:space="preserve">
+    <value>Embaralhar os painéis em</value>
+  </data>
+  <data name="EDITAR_SIMULACAO_LABEL_TIMEOUT_SEM_COMUNICACAO_SEGUNDOS" xml:space="preserve">
+    <value>(Segundos)</value>
+  </data>
+  <data name="MAIN_MENU_HELP_VERIFICAR_ATUALIZACAO" xml:space="preserve">
+    <value>Verificar Atualizações</value>
+  </data>
+  <data name="MAIN_MENU_HELP_VERIFICAR_ATUALIZACAO_MBOX_ERRO" xml:space="preserve">
+    <value>Houve algum problema com sua conexão. Favor tentar novamente.</value>
+  </data>
+  <data name="MAIN_MENU_HELP_VERIFICAR_ATUALIZACAO_MBOX_SUCESSO" xml:space="preserve">
+    <value>Verificação realizada com sucesso, caso necessário será efetuado o download do software/firmware.</value>
+  </data>
+  <data name="MAIN_MENU_HELP_VERIFICAR_ATUALIZACAO_MBOX_TITLE" xml:space="preserve">
+    <value>ERRO</value>
+  </data>
+  <data name="UPDATE_FIRMWARE_DOWNLOAD_ALL" xml:space="preserve">
+    <value>Baixar todos</value>
+  </data>
+  <data name="UPDATE_FIRMWARE_HEADER_CHECK_UPDATES" xml:space="preserve">
+    <value>Verificar</value>
+  </data>
+  <data name="UPDATE_FIRMWARE_HEADER_PERCENTUAL" xml:space="preserve">
+    <value>Percentual</value>
+  </data>
+  <data name="UPDATE_FIRMWARE_HEADER_TIPO" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="UPDATE_FIRMWARE_MSG_ATUALIZADO" xml:space="preserve">
+    <value>Atualizado</value>
+  </data>
+  <data name="EDITAR_SIMULACAO_CHECK_TURN_OFF_USB" xml:space="preserve">
+    <value>Desligar a porta USB</value>
+  </data>
+  <data name="EDITAR_SIMULACAO_CHECK_TURN_ONOFF_USB" xml:space="preserve">
+    <value>Liga / Desliga a porta USB</value>
+  </data>
+  <data name="TEXTO_112_ARQUIVO_LPK" xml:space="preserve">
+    <value>DESLIGA USB?</value>
+  </data>
+  <data name="TEXTO_113_ARQUIVO_LPK" xml:space="preserve">
+    <value>LIGA/DESLIGA USB</value>
+  </data>
+  <data name="TEXTO_114_ARQUIVO_LPK" xml:space="preserve">
+    <value>FORMATAR PENDRIVE</value>
+  </data>
+  <data name="TEXTO_FUNCOES_19" xml:space="preserve">
+    <value>FORMATAR PENDRIVE</value>
+  </data>
+  <data name="TEXTO_FUNCOES_20" xml:space="preserve">
+    <value>LIGA/DESLIGA USB</value>
+  </data>
+</root>

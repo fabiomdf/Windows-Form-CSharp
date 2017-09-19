@@ -1,0 +1,401 @@
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text;
+using Nucleo;
+using Persistencia;
+
+namespace Controlador
+{
+    [Serializable]
+    public class Painel
+    {
+        //private Arquivo_ALT alternancia;
+        public Painel()
+        {
+            this.Altura = 8;
+            this.Largura = 80;
+            this.Roteiros = new List<Roteiro>();
+            this.Mensagens = new List<Mensagem>();
+            this.MensagensEspeciais = new List<Mensagem>();
+
+           //Arquivo_ALT arquivo = new Arquivo_ALT();
+           //arquivo.CriarAlternanciasDefault();           
+        }
+
+        //indice do painel no array de controlador.
+        public int Indice { get; set; }
+        
+        public int Altura{ get; set; }
+
+        public int Largura{get; set; }
+
+        public List<Mensagem> Mensagens { get; set; }
+
+        public List<Roteiro> Roteiros { get; set; }
+
+        public int AlternanciaSelecionada { get; set; }
+
+        public List<Mensagem> MensagensEspeciais { get; set; }
+
+        public Mensagem MensagemEmergencia { get; set; }
+
+        public Mensagem MensagemBoaNoite { get; set; }
+
+        public Mensagem MensagemBoaTarde { get; set; }
+
+        public Mensagem MensagemBomDia { get; set; }
+
+
+        public int BloqueioAlternancias
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+        /*
+        public Arquivo_ALT AlternanciaPersonalizada
+        {
+            get
+            {
+                throw new System.NotImplementedException();
+            }
+            set
+            {
+            }
+        }
+        */
+        public String FontePath { get; set; }
+
+        public int MensagemSelecionada{ get; set; }
+
+        public void GerarArquivosALT()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void GerarArquivosCFG()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void GerarArquivosMensagemLST()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void GerarArquivosRoteirosLST()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void Salvar(String diretorio_raiz)
+        {
+            //this.Altura = 16;
+            this.SalvarCFG(diretorio_raiz + 
+                           Util.Util.DIRETORIO_PAINEL + 
+                           this.Indice.ToString(Util.Util.ARQUIVO_PAINEL_NUMEROALGS) + 
+                           Util.Util.ARQUIVO_PAINEL_CFG,
+                           true);
+
+            this.SalvarAlternancia(diretorio_raiz + Util.Util.DIRETORIO_PAINEL + this.Indice.ToString(Util.Util.ARQUIVO_PAINEL_NUMEROALGS) + Util.Util.ARQUIVO_PAINEL_ALTERNANCIA);
+
+            foreach (Mensagem mensagem in this.Mensagens)
+            {
+                mensagem.Salvar(diretorio_raiz);
+            }
+
+            foreach (Roteiro roteiro in this.Roteiros)
+            {
+                roteiro.Salvar(diretorio_raiz);
+            }
+            
+
+            //Gera arquivos List(listando arquivos de msg e arquivos de rot);
+            //msgs
+            List<string> msgs = Directory.EnumerateFiles(diretorio_raiz + Util.Util.DIRETORIO_MSGS, "*.msg").ToList();
+            List<string> rots = Directory.EnumerateFiles(diretorio_raiz + Util.Util.DIRETORIO_ROTEIROS, "*.rot").ToList();
+
+            Arquivo_LST msg_lst = new Arquivo_LST();
+
+            foreach (string s in msgs)
+            {
+                msg_lst.listaPaths.Add(s.Substring(diretorio_raiz.Count(), s.Length - diretorio_raiz.Count()).Replace(@"\",@"/"));   
+            }
+
+            Arquivo_LST rot_lst = new Arquivo_LST();
+
+            foreach (string s in rots)
+            {
+                rot_lst.listaPaths.Add(s.Substring(diretorio_raiz.Count(), s.Length - diretorio_raiz.Count()).Replace(@"\", @"/"));
+            }
+
+            msg_lst.Salvar(diretorio_raiz + Util.Util.DIRETORIO_MSGS + Util.Util.ARQUIVO_LST_MSGS);
+            rot_lst.Salvar(diretorio_raiz + Util.Util.DIRETORIO_ROTEIROS + Util.Util.ARQUIVO_LST_ROTEIROS);
+
+        }
+
+        private void SalvarCFG(String diretorio_raiz, Boolean GeraSaudaçõesPadrão)
+        {
+            //Painel.cfg
+            Arquivo_CFG painel_cfg = new Arquivo_CFG();
+
+            painel_cfg.alternanciaSelecionada = (byte)this.AlternanciaSelecionada;
+            painel_cfg.altura = (uint)this.Altura;
+            painel_cfg.fontePath = @"fontes/fonte8.fnt"; 
+            painel_cfg.largura = (uint)this.Largura;
+            painel_cfg.mensagemSelecionada = 0;
+            painel_cfg.versao = 0;
+
+            if (GeraSaudaçõesPadrão)
+            {
+                GeraSaudaçãesPadrães(painel_cfg, Path.GetDirectoryName(diretorio_raiz));
+            }
+
+            painel_cfg.Salvar(diretorio_raiz);
+
+        }
+
+        /// <summary>
+        /// Gera Objetos de vídeo padrão para as saudações padrão.
+        /// </summary>
+        /// <param name="painel_cfg">Arquivo CFG a ser gerado.</param>
+        /// <param name="diretorio_raiz">Diretorio do arquivo CFG sem o nome do arquivo. Apenas o diretório.</param>
+        private void GeraSaudaçãesPadrães(Arquivo_CFG painel_cfg, String diretorio_raiz)
+        {
+            Persistencia.Videos.VideoV02 v02Temp = new Persistencia.Videos.VideoV02();
+
+            //Imagem para Bom dia.
+            ProcessamentoDeImagens.
+                PreparaVideo02ApenasTexto(ref v02Temp,
+                                          Util.Util.BOM_DIA,
+                                          diretorio_raiz +
+                                          Util.Util.DIRETORIO_PAI +
+                                          Util.Util.DIRETORIO_PAI +
+                                          Util.Util.ARQUIVO_SEPARADOR_DIRETORIO_WINDOWS +
+                                          Util.Util.TrataDiretorioFWParaWindows(painel_cfg.fontePath));
+
+            painel_cfg.VideosSaudacao.Add(v02Temp);
+
+            //=======================
+
+            v02Temp = new Persistencia.Videos.VideoV02();
+
+            //Imagem para Boa tarde.
+            ProcessamentoDeImagens.
+                PreparaVideo02ApenasTexto(ref v02Temp,
+                                          Util.Util.BOA_TARDE,
+                                          diretorio_raiz +
+                                          Util.Util.DIRETORIO_PAI +
+                                          Util.Util.DIRETORIO_PAI +
+                                          Util.Util.ARQUIVO_SEPARADOR_DIRETORIO_WINDOWS +
+                                          Util.Util.TrataDiretorioFWParaWindows(painel_cfg.fontePath));
+
+            painel_cfg.VideosSaudacao.Add(v02Temp);
+
+            //=======================
+
+            v02Temp = new Persistencia.Videos.VideoV02();
+
+            //Imagem para Boa noite.
+            ProcessamentoDeImagens.
+                PreparaVideo02ApenasTexto(ref v02Temp,
+                                          Util.Util.BOA_NOITE,
+                                          diretorio_raiz +
+                                          Util.Util.DIRETORIO_PAI +
+                                          Util.Util.DIRETORIO_PAI +
+                                          Util.Util.ARQUIVO_SEPARADOR_DIRETORIO_WINDOWS +
+                                          Util.Util.TrataDiretorioFWParaWindows(painel_cfg.fontePath));
+
+            painel_cfg.VideosSaudacao.Add(v02Temp);
+        }
+
+        private void SalvarAlternancia(String diretorio_raiz)
+        {
+            Arquivo_ALT aalt = new Arquivo_ALT();
+
+            aalt.ArquivoNome = diretorio_raiz;
+            aalt.CriarAlternanciasDefault();
+            
+            aalt.Salvar(diretorio_raiz);
+
+        }
+
+        public void Abrir(String diretorio_raiz)
+        {
+            //Abrir arquivo de alternância.
+            
+            //Arquivo_ALT aalt = new Arquivo_ALT();
+            
+            //Arquivo CFG;
+            Arquivo_CFG acfg = new Arquivo_CFG();
+            //acfg.CriarConfiguracaoDefault();
+            acfg.Abrir(diretorio_raiz + Util.Util.ARQUIVO_CFG);
+
+            this.Altura = (int)acfg.altura;
+            this.Largura = (int)acfg.largura;
+            this.AlternanciaSelecionada = acfg.alternanciaSelecionada;
+            this.FontePath = acfg.fontePath;
+            this.MensagemSelecionada = (int)acfg.mensagemSelecionada;
+            
+            this.CarregaRoteiros(diretorio_raiz);
+            this.CarregaMensagens(diretorio_raiz);
+
+            ////Mensagens 
+            ////enumera os arquivos .mpt
+            //List<string> mpts = Directory.EnumerateFiles(arquivoNome + Util.Util.DIRETORIO_MSGS, "*.mpt").ToList();
+
+            //for (int arquivo = 0; arquivo < mpts.Count; arquivo++)
+            //{
+            //    this.Mensagens.Add(new Mensagem());
+            //    this.Mensagens[arquivo].Id = arquivo; //System.Convert.ToInt32(rpts[arquivo].Substring(0, 3));
+            //    this.Mensagens[arquivo].Abrir(arquivoNome + Util.Util.DIRETORIO_MSGS + @"\" + mpts[arquivo]); //abre o rpt.
+            //}
+
+
+        }
+
+        public void CarregaRoteiros(String diretorio_raiz)
+        {
+            //O nome do arquivo de RPT é o mesmo nome do arquivo de roteiro a ser carregado.
+            List<string> rpts = Directory.EnumerateFiles(diretorio_raiz + Util.Util.DIRETORIO_ROTEIROS, @"*" + Util.Util.ARQUIVO_EXT_RPT).ToList();
+            List<string> nomeRots = new List<string>();
+
+
+            //coleta os rots de acordo como os nomes dos rpts indicam.
+            for (int indiceRPTs = 0; indiceRPTs < rpts.Count; indiceRPTs++)
+            {
+                String NomeArquivoTemp = String.Empty;
+                int indice_inicio = diretorio_raiz.Count() + Util.Util.DIRETORIO_ROTEIROS.Count();
+
+                NomeArquivoTemp = rpts[indiceRPTs].Substring(indice_inicio,
+                                                             rpts[indiceRPTs].Count() -
+                                                             indice_inicio -
+                                                             Util.Util.ARQUIVO_EXT_RPT.Count()
+                                                             );
+
+                nomeRots.Add(diretorio_raiz +
+                             Util.Util.DIRETORIO_PAI +
+                             Util.Util.DIRETORIO_PAI +
+                             Util.Util.DIRETORIO_ROTEIROS +
+                             NomeArquivoTemp + Util.Util.ARQUIVO_EXT_ROT);
+
+            }
+
+            //Carrega os roteiros dos .rots e adiciona no painel.
+            for (int roteiro = 0; roteiro < nomeRots.Count; roteiro++)
+            {
+                Roteiro rTemp = new Roteiro();
+                Arquivo_ROT arot = new Arquivo_ROT();
+
+                arot.Abrir(nomeRots[roteiro]);
+
+                rTemp.Id = arot.id;
+                rTemp.Indice = roteiro;
+                rTemp.IndicePainel = this.Indice;
+                rTemp.LabelNumero = arot.labelNumero;
+                rTemp.LabelRoteiroIda = arot.labelRoteiro;
+                rTemp.LabelRoteiroVolta = arot.labelRoteiro;
+                rTemp.RPT = rpts[roteiro];
+
+                this.Roteiros.Add(rTemp);
+
+                //this.Roteiros[roteiro].Abrir(diretorio_raiz);
+                this.Roteiros[roteiro].AbrirFormatoNovo(diretorio_raiz);
+            }
+
+        }
+
+        /// <summary>
+        /// Carrega as mensagens de saudaçães.(Bom Dia, Boa Tarde e Boa Noite) e emergência
+        /// </summary>
+        private void CarregaSalutations(String DiretorioRaiz)
+        {
+            this.MensagemEmergencia = new Mensagem();
+            this.MensagemEmergencia.IndicePainel = this.Indice;
+            //this.MensagemEmergencia.VideoPath = DiretorioRaiz + Util.Util.DIRETORIO_VIDEOS + Util.Util.ARQUIVO_BOM_DIA_V01;
+            this.MensagemEmergencia.LabelMensagem = "Emergência";
+            
+            this.MensagemBomDia = new Mensagem();
+            this.MensagemBomDia.IndicePainel = this.Indice;
+            this.MensagemBomDia.VideoPath = DiretorioRaiz + Util.Util.DIRETORIO_VIDEOS + Util.Util.ARQUIVO_BOM_DIA_V01;
+            this.MensagemBomDia.LabelMensagem = "Bom Dia";
+
+            this.MensagemBoaTarde = new Mensagem();
+            this.MensagemBoaTarde.IndicePainel = this.Indice;
+            this.MensagemBoaTarde.VideoPath = DiretorioRaiz + Util.Util.DIRETORIO_VIDEOS + Util.Util.ARQUIVO_BOM_TARDE_V01;
+            this.MensagemBoaTarde.LabelMensagem = "Boa Tarde";
+
+            this.MensagemBoaNoite = new Mensagem();
+            this.MensagemBoaNoite.IndicePainel = this.Indice;
+            this.MensagemBoaNoite.VideoPath = DiretorioRaiz + Util.Util.DIRETORIO_VIDEOS + Util.Util.ARQUIVO_BOM_NOITE_V01;
+            this.MensagemBoaNoite.LabelMensagem = "Boa Noite";
+            
+        }
+
+        public void CarregaMensagens(String diretorio_raiz)
+        {
+            //O nome do arquivo de MPT é o mesmo nome do arquivo de mensagem a ser carregada.
+            List<string> mpts = Directory.EnumerateFiles(diretorio_raiz + Util.Util.DIRETORIO_MSGS, @"*" + Util.Util.ARQUIVO_EXT_MPT).ToList();
+            List<string> nomeMSGs = new List<string>();
+
+            //todo: terminar mensagens de saudação, ainda há coisas a serem definidas por firmware e software.
+            //carrega as mensagens de saudações.
+            this.CarregaSalutations(diretorio_raiz);
+
+            //coleta os nomes dos msgs de acordo como os nomes que os mpts indicam.
+            for (int indiceMPTs = 0; indiceMPTs < mpts.Count; indiceMPTs++)
+            {
+                String NomeArquivoTemp = String.Empty;
+                int indice_inicio = diretorio_raiz.Count() + Util.Util.DIRETORIO_MSGS.Count();
+
+                NomeArquivoTemp = mpts[indiceMPTs].Substring(indice_inicio,
+                                                             mpts[indiceMPTs].Count() -
+                                                             indice_inicio -
+                                                             Util.Util.ARQUIVO_EXT_MPT.Count()
+                                                             );
+
+                nomeMSGs.Add(diretorio_raiz +
+                             Util.Util.DIRETORIO_PAI +
+                             Util.Util.DIRETORIO_PAI +
+                             Util.Util.DIRETORIO_MSGS +
+                             NomeArquivoTemp + Util.Util.ARQUIVO_EXT_MSG);
+
+            }
+
+            //todo: ordenar as mensagens para não ocorrer diferenças.
+            //Carrega as mensagens dos .msgs e adiciona no painel.
+            for (int mensagem = 0; mensagem < nomeMSGs.Count; mensagem++)
+            {
+                Mensagem mTemp = new Mensagem();
+                Arquivo_MSG amsg = new Arquivo_MSG();
+
+                amsg.Abrir(nomeMSGs[mensagem]);
+
+                mTemp.Id = amsg.id;
+                mTemp.Indice = mensagem;
+                mTemp.IndicePainel = this.Indice;
+                mTemp.LabelMensagem = amsg.labelMensagem;
+                mTemp.MPT = mpts[mensagem];
+
+                this.Mensagens.Add(mTemp);
+
+                //this.Mensagens[mensagem].Abrir(diretorio_raiz);
+                this.Mensagens[mensagem].AbrirFormatoNovo(diretorio_raiz);
+            }
+
+        }
+    }
+
+    
+
+
+
+
+
+}
